@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Information",
+    "url": "/en/info.html",
+	"icon": "bi-info-circle"
+  },
+  {
+    "label": "Textbooks",
+    "url": "/en/materiale.html#testi",
+	"icon": "bi-book"
+  },
+  {
+    "label": "Slides",
+    "url": "/en/materiale.html#slides",
+	"icon": "bi-easel"
+  },
+  {
+    "label": "Examples",
+    "url": "/en/materiale.html#esempi",
+	"icon": "bi-code-square"
+  },
+  {
+    "label": "Projects",
+    "url": "/en/materiale.html#progetti",
+	"icon": "bi-bank"
+  },
+  {
+    "label": "Lectures log",
+    "url": "/en/log.html",
+	"icon": "bi-calendar-week"
+  },  
+  
+  {
+    "label": "Software",
+    "url": "/en/risorse.html#software",
+	"icon": "bi-tools"
+  }
+]

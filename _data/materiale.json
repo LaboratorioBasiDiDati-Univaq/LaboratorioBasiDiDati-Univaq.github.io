@@ -1,0 +1,58 @@
+{
+  "slides": [
+    {
+      "url": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides",
+      "nome": {
+        "it": "Repository delle slide del corso",
+        "en": "Course slides repository"
+      },
+      "commento": {
+        "it": "Da controllare spesso per aggiornamenti!",
+        "en": "Always check for updates!"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "url": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Project_Specifications",
+      "nome": {
+        "it": "Repository dei progetti di fine corso",
+        "en": "Final project specifications repository"
+      },
+      "commento": {
+        "it": "Questa raccolta contiene tutti i progetti di fine corso, divisi per anno accademico",
+        "en": "A collection of all the final course projects for each academic year"
+      }
+    }
+  ],
+  "examples": [
+   
+	{
+      "nome": {
+        "it": "Esempi ER sviluppati in aula", "en":"ER examples developed during the lectures"
+      },
+      "url": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples",
+      "commento": {
+        "it": "In questo repository troverete i diagrammi ER sviluppati a lezione in tutte le edizioni del corso"
+      }
+    },
+    {
+      "nome": {
+        "it": "Esempi SQL sviluppati in aula", "en":"SQL examples developed during the lectures"
+      },
+      "url": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples",
+      "commento": {
+        "it": "In questo repository troverete il codice sorgente e varia documentazione relativa agli esempi di SQL sviluppati in aula. Ciascuna cartella contiene il materiale realtivo a un certo anno accademico (ad esempio 2022 per l'anno accademico 2022/2023), quindi anche se dovessero esserci file con nome simile scaricate sempre e solo quelli realtivi al vostro anno di frequenza"
+      }
+    },
+    {
+      "nome": {
+        "it": "Java e JDBC", "en":"Java and JDBC"
+      },
+      "url": "https://github.com/LaboratorioBasiDiDati-Univaq/JDBC_Example",
+      "commento": {
+        "it": "Questo progetto mostra, con procedure separate, tutte le principali modalità di interazione con MySQL tramite JDBC da Java"
+      }
+    }	
+  ]
+}

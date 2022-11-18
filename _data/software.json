@@ -1,0 +1,17 @@
+  [
+  {
+      "url": "http://dev.mysql.com/downloads/mysql/",
+      "nome": "MySQL Server",
+	  "versione": 8,
+		"commento": {
+        "it": "Il nostro DBMS di riferimento. Scaricate il programma di istallazione per il server (community edition) specifico per la vostra piattaforma. Il server va configurato, quindi se scaricate semplicemente la versione compressa (zip) del server non avrete un ambiente funzionante. Se presente, potete anche usare l'installer globale che provvederà a scaricare a istallare anche il workbench e altri componenti utili"
+      }	  
+    },
+    {
+      "url": "http://dev.mysql.com/downloads/workbench/",
+      "nome": "MySQL Workbench",
+      "commento": {
+        "it": "Uno strumento potente per interagire con MySQL"
+      }
+    }	
+  ]

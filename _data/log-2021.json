@@ -1,0 +1,877 @@
+[
+ {
+  "date": "2022-03-02T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {"all": "Presentazione del corso"},
+   {"all": "Perchè le basi di dati sono importanti?"},
+   {
+    "all": "Esempio Gestire i dati: dai metodi 'fatti in casà ai server DBMS",
+    "type": "esempio"
+   },
+   {"all": "Per gestire la persistenza dei dati dobbiamo usare per forza un DBMS?"},
+   {
+    "all": "I I DBMS serverless come SQLite",
+    "type": "esempio"
+   },
+   {"all": "Perchè usiamo (ancora) il modello relazionale?"},
+   {"all": "E le basi di dati NoSQL?"},
+   {
+    "all": "I L'affermazione delle basi di dati document-oriented come MongoDB",
+    "type": "esempio"
+   },
+   {
+    "all": "I L'affermazione delle basi di dati a grafo nelle applicazioni di data analytics",
+    "type": "esempio"
+   },
+   {"all": "SQL e NoSQL sono veramente mondi isolati?"},
+   {
+    "all": "I Le estensioni NoSQL dei database relazionali (e viceversa)",
+    "type": "esempio"
+   },
+   {"all": "Gli errori più comuni nelle basi di dati e le loro (catastrofiche) conseguenze"},
+   {"all": "Il processo di realizzazione di una base di dati"},
+   {"all": "Le fasi della progettazione: concettuale, logica, fisica"},
+   {"all": "Gli strumenti per ciascuna fase di progettazione"},
+   {"all": "Analisi delle specifiche"},
+   {
+    "all": "L'Università: analisi dei requisiti",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "Introduction",
+   "it": "Introduzione al corso"
+  }
+ },
+ {
+  "date": "2022-03-04T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "all": "La progettazione concettuale",
+    "ref": "DBPpdf"
+   },
+   {"all": "I diagrammi Entità - Relazione"},
+   {"all": "Entità nei diagrammi ER"},
+   {
+    "all": "L'Università: entità",
+    "type": "esempio"
+   },
+   {"all": "Attributi nei diagrammi ER"},
+   {
+    "all": "Attributi ed Entità: come non confondere i due concetti",
+    "type": "esempio"
+   },
+   {
+    "all": "L'Università: attributi",
+    "type": "esempio"
+   },
+   {"all": "Attributi composti"},
+   {
+    "all": "Quando è utile usare un attributo composto",
+    "type": "esempio"
+   },
+   {"all": "Attributi con molteplicità"},
+   {"all": "Identificare univocamente le istanze di un'entità"},
+   {"all": "Chiavi nelle entità"},
+   {"all": "Scelta della chiave primaria tra le chiavi candidate"},
+   {
+    "all": "L'Università: chiavi",
+    "type": "esempio"
+   },
+   {
+    "all": "Entità (apparentemente) prive di chiave",
+    "type": "esempio"
+   },
+   {
+    "all": "L'Azienda: analisi dei requisiti",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "ER Modelling 1",
+   "it": "Modellazione ER 1"
+  }
+ },
+ {
+  "date": "2022-03-09T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {
+    "all": "L'Azienda: entità, attributi e chiavi",
+    "type": "esempio"
+   },
+   {"all": "Documentazione dei diagrammi ER: i tipi di dato"},
+   {"all": "Generalizzazione di entità"},
+   {"all": "Generalizzazioni totali e parziali"},
+   {"all": "Generalizzazioni e chiavi"},
+   {
+    "all": "Il supermercato: entità, attributi e chiavi",
+    "type": "esempio"
+   },
+   {"all": "Relazioni"},
+   {"all": "Relazioni non binarie"},
+   {
+    "all": "Il supermercato: relazioni",
+    "type": "esempio"
+   },
+   {"all": "Relazioni e generalizzazioni"},
+   {"all": "Auto-Relazioni"},
+   {"all": "Ruoli nelle relazioni"},
+   {
+    "all": "L'azienda: relazioni",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "ER Modelling 2",
+   "it": "Modellazione ER 2 "
+  }
+ },
+ {
+  "date": "2022-03-11T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {"all": "Attributi sulle relazioni"},
+   {
+    "all": "Il supermercato: attributi sulle relazioni",
+    "type": "esempio"
+   },
+   {
+    "all": "L'azienda: attributi sulle relazioni",
+    "type": "esempio"
+   },
+   {"all": "Attributi derivabili"},
+   {
+    "all": "L'azienda: attributi derivabili e considerazioni sulla loro implementazione",
+    "type": "esempio"
+   },
+   {"all": "Cardinalità delle relazioni"},
+   {
+    "all": "Il supermercato: relazioni con cardinalità",
+    "type": "esempio"
+   },
+   {
+    "all": "L'azienda: relazioni con cardinalità",
+    "type": "esempio"
+   },
+   {
+    "all": "Modellare il concetto di \"storico\"per un'associazione: soluzioni e considerazioni",
+    "type": "esempio"
+   },
+   {
+    "all": "L'Università: relazioni",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "ER Modelling 3",
+   "it": "Modellazione ER 3 "
+  }
+ },
+ {
+  "date": "2022-03-16T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {"all": "Entità deboli e chiavi con relazioni"},
+   {
+    "all": "L'Università: chiavi per le antità deboli",
+    "type": "esempio"
+   },
+   {"all": "Cardinalità ammesse per le relazioni con entità deboli"},
+   {
+    "all": "L'Auto-Relazione mutuazione tra gli insegnamenti",
+    "type": "esempio"
+   },
+   {
+    "all": "La rivista",
+    "type": "esempio"
+   },
+   {
+    "all": "La rivista: quando una generalizzazione esprime molti più vincoli di una (o due) relazioni",
+    "type": "esempio"
+   },
+   {
+    "all": "La rivista: vari modi di modellare il sotto-diagramma uscita/pagina/riquadro/elemento",
+    "type": "esempio"
+   },
+   {"all": "Segmento di lezione tenuto dal prof. Di Sanzo sulla risutrutturazione dei diagrammi ER"}
+  ],
+  "title": {
+   "en": "ER Modelling - final examples",
+   "it": "Esercitazione finale sui diagrammi ER"
+  }
+ },
+ {
+  "date": "2022-03-18T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "all": "La rivista: diagramma ER finale",
+    "type": "esempio"
+   },
+   {"all": "Cosa significa \"cancellare\"in una base di dati, quando le entità sono relazionate tra loro?"},
+   {
+    "all": "La banca: dalle specifiche al diagramma ER",
+    "type": "esempio"
+   },
+   {"all": "Ristrutturazione: Eliminazione attributi composti"},
+   {"all": "Ristrutturazione: Attributi derivabili"},
+   {"all": "Criteri per l'introduzione o l'eliminazione di un attributo derivabile"},
+   {"all": "Ristrutturazione: Eliminazione attributi con cardinalità"},
+   {
+    "all": "Vari modi per ottimizzare l'eliminazione di un attributo con cardinalità",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "ER Modelling - final examples",
+   "it": "Esercitazione finale sui diagrammi ER"
+  }
+ },
+ {
+  "date": "2022-03-23T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {"all": "Presentazione del DBMS MySQL"},
+   {"all": "Installazione di MySQL server"},
+   {"all": "Uso del client command line MySQL"},
+   {"all": "Installazione e uso di MySQL Workbench"},
+   {"all": "MySQL: scelta dello storage engine"},
+   {"all": "Presentazione di SQL"},
+   {"all": "DDL, DML e QL"},
+   {"all": "I tipi di dato built-in di SQL"},
+   {"all": "Tipi di dato SQL: numerici"},
+   {"all": "Tipi di dato SQL: binari"},
+   {"all": "Tipi di dato SQL: carattere"},
+   {"all": "Tipi di dato SQL: temporali"},
+   {"all": "Tipi di dato SQL: booleani"},
+   {"all": "La logica a tre valori dell'SQL"},
+   {"all": "Tipi di dato SQL: il valore null"},
+   {"all": "Tipi di dato in MySQL: differenze ed estensioni"},
+   {"all": "Creazione di domini in SQL"},
+   {"all": "La parola chiave DEFAULT nei domini"},
+   {"all": "Vincoli di tipo CHECK nei domini"},
+   {"all": "Modifica e rimozione di domini"},
+   {"all": "Segmento di lezione tenuto dal prof. Di Sanzo sulla risutrutturazione dei diagrammi ER"}
+  ],
+  "title": {
+   "en": "Introduction to SQL",
+   "it": "Introduzione a SQL"
+  }
+ },
+ {
+  "date": "2022-03-25T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {"all": "Ristrutturazione dei diagrammi ER"},
+   {"all": "Ottimizzare le strutture ER con la ristrutturazione"},
+   {"all": "Ristrutturazione: fusioni e decomposizioni"},
+   {"all": "Decomposizione di entità"},
+   {
+    "all": "L'università: ottimizzazione e ristrutturazione del modello ER",
+    "type": "esempio"
+   },
+   {"all": "Decomposizione di relazioni"},
+   {
+    "all": "L'azienda: ottimizzazione e ristrutturazione del modello ER",
+    "type": "esempio"
+   },
+   {"all": "Ristrutturazione: Eliminazione delle gerarchie"},
+   {"all": "Criteri e metodi per l'eliminazione di una gerarchia"},
+   {
+    "all": "Il supermarket: ottimizzazione e ristrutturazione del modello ER",
+    "type": "esempio"
+   },
+   {
+    "all": "La rivista: ottimizzazione e ristrutturazione del modello ER",
+    "type": "esempio"
+   },
+   {
+    "all": "La banca: ottimizzazione e ristrutturazione del modello ER",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "Logic Modelling Excercises 1",
+   "it": "Progettazione logica: esercitazione sulla ristrutturazione"
+  }
+ },
+ {
+  "date": "2022-03-30T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {"all": "Operatori e funzioni comuni dell'SQL"},
+   {"all": "Funzioni scalari SQL"},
+   {"all": "Funzioni scalari in MySQL"},
+   {"type": "esempio"},
+   {"all": "Funzioni stringa SQL"},
+   {"all": "Funzioni stringa in MySQL"},
+   {"type": "esempio"},
+   {"all": "Funzioni temporali SQL"},
+   {"all": "Funzioni temporali in MySQL"},
+   {"all": "Operatori di confronto SQL"},
+   {"all": "Operatori di confronto SQL: BETWEEN e IN"},
+   {"all": "Operatori di confronto SQL: LIKE"},
+   {"all": "Operatori di confronto SQL: IS NULL"},
+   {"type": "esempio"},
+   {"all": "Gestione dell'utenza in un DBMS"},
+   {"all": "MySQL: utenti host-specific e sicurezza"},
+   {"all": "Il modo corretto e sicuro di interfacciare un'applicazione a un DBMS"},
+   {"all": "Segmento di lezione tenuto dal prof. Di Sanzo sulla traduzione ER-Relazionale"}
+  ],
+  "title": {
+   "en": "Introduction to SQL",
+   "it": "Introduzione a SQL"
+  }
+ },
+ {
+  "date": "2022-04-01T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "all": "L'università: dal modello concettuale ristrutturato a quello logico",
+    "type": "esempio"
+   },
+   {"all": "Criteri per la scelta della chiave primaria a livello relazionale (DBMS)"},
+   {"all": "Migrazione delle chiavi dal modello ER a quello relazionale"},
+   {"all": "Introduzione di chiavi primarie interne alle tabelle"},
+   {"all": "Chiavi per le tabelle di relazione"},
+   {"all": "Mantenere tutti i vincoli di cardinalità nel DBMS: prime idee"},
+   {"all": "Ottimizzazione delle relazioni"},
+   {"all": "Fusione di tabelle relazionali in base alla cardinalità della relazione rappresentata"},
+   {
+    "all": "Confronto tra informazione veicolata dalla struttura relazionale ottimizzata e rappresentata nel diagramma ER",
+    "type": "esempio"
+   },
+   {"all": "Trasformazione ER - Relazionale: entità deboli"},
+   {
+    "all": "Il supermarket: dal modello concettuale ristrutturato a quello logico",
+    "type": "esempio"
+   },
+   {
+    "all": "L'azienda: dal modello concettuale ristrutturato a quello logico",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "Logic Modelling Excercises 2",
+   "it": "Progettazione logica: esercitazione sulla traduzione nel modello relazionale"
+  }
+ },
+ {
+  "date": "2022-04-08T09:30:00",
+  "duration": 2,
+  "arguments": [{"all": "Lezione tenuta dal prof. Di Sanzo sulle architetture per l'analisi dei dati"}],
+  "title": {
+   "en": "Data analysis architectures",
+   "it": "Architetture per l'analisi dei dati"
+  }
+ },
+ {
+  "date": "2022-04-13T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {"all": "Creazione di un database"},
+   {"all": "MySQL: scelta dello storage engine"},
+   {"all": "Creazione di tabelle"},
+   {"all": "La parola chiave DEFAULT sulle colonne"},
+   {"all": "MySQL: identificatori case sensitive in base alla piattaforma!"},
+   {"type": "esempio"},
+   {"all": "Gestione dei permessi in un DBMS"},
+   {"type": "esempio"},
+   {
+    "all": "Lo user manager di MySQL Workbench: caratteristiche e limiti",
+    "type": "esempio"
+   },
+   {"all": "Modifica ed eliminazione di tabelle"},
+   {
+    "all": "Il create/alter table wizard di MySQL Workbench: alcuni trucchi per sfruttarlo e imparare",
+    "type": "esempio"
+   },
+   {"all": "Vincoli su tabelle"},
+   {"all": "Assegnare un nome ai vincoli"},
+   {"all": "Differibilità dei vincoli"},
+   {"all": "Specifica di chiavi: PRIMARY KEY e UNIQUE"},
+   {"all": "Tecniche speciali per la generazione di chiavi primarie"},
+   {"all": "MySQL: caratteristiche delle colonne auto_increment"},
+   {"type": "esempio"},
+   {"all": "Vincoli NOT NULL sulle colonne"},
+   {
+    "all": "Le combinazioni più comuni di DEFAULT e NOT NULL e il loro significato",
+    "type": "esempio"
+   },
+   {"type": "esempio"},
+   {"all": "Segmento di lezione tenuto dal prof. Di Sanzo sulle architetture per l'analisi dei dati"}
+  ],
+  "title": {
+   "en": "SQL: database and table creation",
+   "it": "SQL: creazione di database e tabelle"
+  }
+ },
+ {
+  "date": "2022-04-20T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {"all": "Chiavi esterne e vincoli di integrità referenziale: FOREIGN KEY ... REFERENCES"},
+   {
+    "all": "Relazioni ER, riferimenti relazionali e FOREIGN KEY SQL",
+    "type": "esempio"
+   },
+   {"all": "Tipi di dato e FOREIGN KEY"},
+   {"all": "Vincoli (anche) sui metadati indotti dalle FOREIGN KEY"},
+   {"all": "Indici necessari e opzionali per realizzare una FOREIGN KEY"},
+   {
+    "all": "Perchè una FOREIGN KEY richiede (in MySQL) due indici?",
+    "type": "esempio"
+   },
+   {"all": "Vincoli di integrità referenziale: il costrutto MATCH"},
+   {
+    "all": "Chiavi esterne e modifiche ai dati: come preservare l'integrità referenziale?",
+    "type": "esempio"
+   },
+   {"all": "Vincoli di integrità referenziale: azioni ON DELETE e ON UPDATE"},
+   {
+    "all": "Le combinazioni di azioni più frequenti (e più sensate) per ON DELETE e ON UPDATE",
+    "type": "esempio"
+   },
+   {
+    "all": "Creazione dei vincoli in SQL: considerazioni sulle azioni ON UPDATE e ON DELETE",
+    "type": "esempio"
+   },
+   {"all": "Vincoli CHECK sulle tabelle"},
+   {"all": "Vincoli CHECK in MySQL 8"},
+   {"all": "Modifica e rimozione di vincoli in MySQL"},
+   {
+    "all": "Cancellare un vincolo UNIQUE usando DROP INDEX in MySQL",
+    "type": "esempio"
+   },
+   {
+    "all": "Aggiungere una FOREIGN KEY a una tabella (post-creazione) in MySQL",
+    "type": "esempio"
+   },
+   {"all": "Segmento di lezione tenuto dal prof. Di Sanzo sulle architetture per l'analisi dei dati"}
+  ],
+  "title": {
+   "en": "SQL: constraints",
+   "it": "SQL: i vincoli"
+  }
+ },
+ {
+  "date": "2022-04-22T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "all": "Il Campionato: specifiche",
+    "type": "esempio"
+   },
+   {
+    "all": "Il Campionato: progettazione concettuale",
+    "type": "esempio"
+   },
+   {
+    "all": "Il Campionato: ristrutturazione ER",
+    "type": "esempio"
+   },
+   {
+    "all": "Il Campionato: traduzione nel modello relazionale",
+    "type": "esempio"
+   },
+   {
+    "all": "Il campionato: implementazione fisica con SQL",
+    "ref": "labbd_meta_campionato",
+    "type": "esempio"
+   },
+   {
+    "all": "Esportare un dump completo di una base di dati MySQL",
+    "type": "esempio"
+   },
+   {"all": "Presentazione dei progetti di esame"}
+  ],
+  "title": {
+   "en": "Exercises on database design",
+   "it": "Esercitazione sulla progettazione di un database"
+  }
+ },
+ {
+  "date": "2022-05-04T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {"all": "Inserimento di tuple in una tabella: INSERT INTO ... VALUES"},
+   {"all": "Specificare le colonne nell'inserimento e omettere i valori calcolati o con default"},
+   {
+    "all": "Violazione di vincoli e relativi messaggi di errore di MySQL",
+    "type": "esempio"
+   },
+   {
+    "all": "Visualizzare rapidamente il contenuto di una tabella nel Workbench",
+    "type": "esempio"
+   },
+   {
+    "all": "Usare la funzione MySQL last_insert_id() per estrarre il valore dell'ultima chiave auto_increment generata",
+    "type": "esempio"
+   },
+   {
+    "all": "Inserire rapidamente un record col Workbench",
+    "type": "esempio"
+   },
+   {"all": "Creazione di tabelle calcolate: INSERT INTO ... SELECT"},
+   {"type": "esempio"},
+   {"all": "Modifica dei record di una tabella UPDATE ... SET ... WHERE"},
+   {"all": "Caratteristiche e limiti delle espressioni di aggiornamento"},
+   {"all": "Sintassi elementare per le clausole WHERE"},
+   {
+    "all": "Modificare rapidamente un record col Workbench",
+    "type": "esempio"
+   },
+   {"all": "Eliminazione dei record di una tabella DELETE FROM ... WHERE"},
+   {"all": "Svuotare una tabella con ina DELETE senza WHERE"},
+   {
+    "all": "Cancellare rapidamente un record col Workbench",
+    "type": "esempio"
+   },
+   {"all": "I tre possibili risultati di una query: tabella, lista e valore"},
+   {"all": "Interrogazioni di base: SELECT ... FROM ... WHERE"},
+   {"all": "La clausola FROM"},
+   {"all": "Alias per i nomi di tabella"},
+   {
+    "all": "Perchè usare gli alias di tabella?",
+    "type": "esempio"
+   },
+   {"type": "esempio"},
+   {"all": "La clausola WHERE"},
+   {"type": "esempio"},
+   {"all": "La clausola SELECT"},
+   {"all": "Alias per i nomi di colonna"},
+   {
+    "all": "Perchè usare gli alias di colonna?",
+    "type": "esempio"
+   },
+   {"all": "Colonne calcolate"},
+   {"type": "esempio"},
+   {"all": "Segmento di lezione tenuto dal prof. Di Sanzo"}
+  ],
+  "title": {
+	"it": "SQL: query di base",
+	"en": "SQL: base queries"
+	}
+ },
+ {
+  "date": "2022-05-06T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {"all": "Eliminazione dei duplicati: DISTINCT"},
+   {"all": "Ordinamento dei risultati di una query: la clausola ORDER BY"},
+   {
+    "all": "Ordinamento su colonne calcolate o non estratte dalla query",
+    "type": "esempio"
+   },
+   {"all": "Limitazione dell'output: la clausola (non standard) LIMIT"},
+   {
+    "all": "Paginazione (efficiente) dei risultati con la clausola LIMIT",
+    "type": "esempio"
+   },
+   {"all": "Sotto-query semplici"},
+   {
+    "all": "Sotto-query scalari usate nelle clausole WHERE e SELECT",
+    "type": "esempio"
+   },
+   {"all": "Sotto-query correlate"},
+   {
+    "all": "Sotto-query lista usate con l'operatore IN",
+    "type": "esempio"
+   },
+   {
+    "all": "Sotto-query usate con un operatori di confronto",
+    "type": "esempio"
+   },
+   {"all": "Uso dei quantificatori ANY e ALL con query lista"},
+   {"all": "Join tra tabelle"},
+   {"all": "Join impliciti: condizioni di join e clausola WHERE"},
+   {
+    "all": "Condizioni di join semplici e multiple",
+    "type": "esempio"
+   },
+   {
+    "all": "Mescolare condizioni di filtro e di join nella clausola WHERE",
+    "type": "esempio"
+   }
+  ],
+  "title": {"it": "SQL: sotto-query e join impliciti",
+	"en": "SQL: subqueries and implicit joins"}
+ },
+ {
+  "date": "2022-05-11T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {"all": "Join espliciti con l'operatore JOIN"},
+   {"all": "Join interni: l'operatore INNER JOIN e le sue varianti"},
+   {
+    "all": "Spostare le condizioni di WHERE nel JOIN",
+    "type": "esempio"
+   },
+   {
+    "all": "Scrivere JOIN multipli concatenati",
+    "type": "esempio"
+   },
+   {
+    "all": "Scrivere JOIN tra sotto-JOIN (con parentesi di raggruppamento)",
+    "type": "esempio"
+   },
+   {
+    "all": "Problemi con i join effettuati con le codizioni WHERE: includere nei risultati record non relazionati",
+    "type": "esempio"
+   },
+   {"all": "Join esterni: l'operatore OUTER JOIN e le sue varianti"},
+   {"type": "esempio"},
+   {"all": "Aggregazione di record"},
+   {"all": "Gli operatori aggregati: COUNT, SUM, AVG, MIN, MAX"},
+   {"all": "Modificatori ALL e DISTINCT per gli operatori aggregati"},
+   {
+    "all": "Le molte modalità dell'operatore COUNT: COUNT(*), COUNT(e), COUNT(DISTINCT e)",
+    "type": "esempio"
+   },
+   {"all": "Trattamento dei valori NULL con gli operatori aggregati"},
+   {"all": "Limitazioni della clausola SELECT con gli operatori aggregati"},
+   {"type": "esempio"},
+   {"all": "Il partizionamento: quando l'aggregazione globale non è sufficiente"},
+   {"all": "Partizionamento di record: la clausola GROUP BY"},
+   {"all": "Uso degli operatori aggregati con la clausola GROUP BY"},
+   {"type": "esempio"},
+   {"all": "Limitazioni della clausola SELECT in presenza della clausola GROUP BY"},
+   {"all": "Segmento di lezione tenuto dal prof. Di Sanzo"}
+  ],
+  "title": {"it": "SQL: join espliciti e aggregazione di record",
+	"en": "SQL: explicit joins and record aggregation"}
+ },
+ {
+  "date": "2022-05-13T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {"all": "Ordinamento dei risultati nelle query con raggruppamento"},
+   {
+    "all": "Usare una colonna aggregata come criterio di ordinamento",
+    "type": "esempio"
+   },
+   {"type": "esempio"},
+   {"all": "Raggruppamento su più colonne"},
+   {"all": "Condizioni sui gruppi di tuple: la clausola HAVING"},
+   {
+    "all": "Perchè c'è bisogno di una clausola nuova per delle condizioni di filtro? La differenza tra WHERE e HAVING",
+    "type": "esempio"
+   },
+   {"type": "esempio"},
+   {"all": "Sotto-query e query annidate"},
+   {"all": "Risolvere query complesse suddividendole in query più semplici"},
+   {"all": "Richiami sulle sotto-query scalari"},
+   {
+    "all": "Sotto-query scalari nella clausola SELECT",
+    "type": "esempio"
+   },
+   {
+    "all": "Sotto-query scalari nella clausola WHERE",
+    "type": "esempio"
+   },
+   {"all": "Sotto-query riga"},
+   {"all": "Richiami sulle sotto-query lista (o colonna)"},
+   {"all": "Regole di visibilità per gli identificatori nelle sotto-query (sotto-query correlate)"},
+   {"all": "Uso del predicato EXISTS con sotto-query generiche "},
+   {"type": "esempio"}
+  ],
+  "title": {
+   "en": "SQL - examples",
+   "it": "Esercitazione sulle query"
+  }
+ },
+ {
+  "date": "2022-05-18T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {"all": "Sotto-query correlate e scorrelate: considerazioni di efficienza"},
+   {"all": "Soluzioni alternative alle sotto-query: usare i join in maniera creativa"},
+   {"all": "Combinazione di query tramite operatori insiemistici: UNION, INTERSECT, MINUS"},
+   {"all": "Adattare e fondere tabelle: il caso particolare dell'operatore UNION"},
+   {
+    "all": "Esercitazione finale sulle query: interrogazioni sul campionato di calcio",
+    "ref": "labbd_campionato_query",
+    "type": "esempio"
+   },
+   {"all": "Le viste"},
+   {"all": "Creazione di viste: CREATE VIEW"},
+   {"all": "Uso delle viste nelle query (per modularizzare e semplificare)"},
+   {"all": "Uso delle viste per limitare l'accesso ai dati"},
+   {"all": "Usare l'istruzione CREATE TABLE AS per la creazione di snapshot sui dati"},
+   {"type": "esempio"},
+   {"all": "Le Stored Procedures e Functions"},
+   {"all": "Le Stored Procedures e Functions in MySQL"},
+   {"all": "Il terminatore di istruzioni nelle procedure"},
+   {"all": "Creazione di una procedura: CREATE PROCEDURE"},
+   {"all": "Codice per le procedure: blocchi BEGIN...END"},
+   {"all": "Uso di statement SQL nelle procedure"},
+   {"type": "esempio"},
+   {
+    "all": "Procedure come query parametriche",
+    "type": "esempio"
+   },
+   {"all": "Invocazione di procedure: CALL"},
+   {"type": "esempio"},
+   {"all": "Parametri di input nelle procedure"},
+   {"all": "Segmento di lezione tenuto dal prof. Di Sanzo"}
+  ],
+  "title": {
+   "en": "Advanced SQL: union queries, views, and introduction to procedures",
+   "it": "SQL avanzato: query di unione, viste, introduzione alle procedure"
+  }
+ },
+ {
+  "date": "2022-05-20T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "all": "Le query UNION per aggregare record provenienti da generalizzazioni",
+    "type": "esempio"
+   },
+   {"all": "Costrutti di flusso per le procedure: IF...THEN...ELSE"},
+   {"type": "esempio"},
+   {"all": "Parametri di output nelle procedure"},
+   {"all": "Invocare una procedura con parametri OUT e impostarne correttamente il valore"},
+   {"all": "Impostare il valore di una variabile con SET"},
+   {"all": "Creare variabili globali (di sessione) nell'interprete SQL: la sintassi @variabile"},
+   {"all": "La clausola INTO del costrutto SELECT"},
+   {"all": "Dichiarare variabili locali in una procedura con DECLARE"},
+   {"type": "esempio"},
+   {"all": "Creazione di una funzione: CREATE FUNCTION"},
+   {"all": "Parametri e tipo di ritorno (RETURNS) nelle funzioni"},
+   {"all": "Restituire un valore da una funzione con RETURN"},
+   {"all": "Uso di funzioni user-defined nelle query"},
+   {
+    "all": "Le funzioni estendono il linguaggio SQL",
+    "type": "esempio"
+   },
+   {
+    "all": "Creare procedure e funzioni complesse per incorporare la logica di accesso al database",
+    "type": "esempio"
+   },
+   {"all": "La funzione last_insert_id()"},
+   {"all": "La funzione found_rows()"},
+   {"all": "Riassunto del linguaggio procedurale di MySQL"},
+   {"all": "Codice per le procedure: blocchi e label"},
+   {"all": "Costrutti di flusso per le procedure: IF...THEN...ELSE, CASE...WHEN, WHILE, LOOP, REPEAT...UNTIL"},
+   {"all": "Le istruzioni LEAVE e ITERATE"},
+   {"all": "Similitudini e differenze tra i costrutti SQL e quelli JAVA"},
+   {"all": "Vari usi del costrutto SELECT in una procedura: per query scalari, colonna, riga e generiche"},
+   {"type": "esempio"},
+   {"all": "Cenni sulle conditions in SQL"},
+   {"all": "Cenni sugli stati SQL (SQLSTATE)"},
+   {"all": "Segnalare una condizione anomala in una procedura: SIGNAL"},
+   {"type": "esempio"}
+  ],
+  "title": {"it": "SQL avanzato: procedure, funzioni",
+	"en": "Advanced SQL: procedures and functions"}
+ },
+ {
+  "date": "2022-05-25T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {"all": "Le conditions SQL e gli handler"},
+   {"all": "Dichiarazione di handler: DECLARE HANDLER"},
+   {"all": "Similitudini e differenze tra gli handler SQL e i blocchi try di JAVA"},
+   {"all": "EXIT e CONTINUE handlers"},
+   {"all": "Segnalare una condizione anomala in una progedura: SIGNAL"},
+   {"all": "Muoversi tra i record resitutiti da una query: i cursori"},
+   {"all": "Gestione del ciclo di vita di un cursore: DACLARE CURSOR, OPEN, FETCH, CLOSE"},
+   {"all": "Gestire la condizione di fine record (NOT FOUND) con un handler"},
+   {"type": "esempio"},
+   {"all": "Gestire una condizione anomala e risegnalarla: RESIGNAL"},
+   {"type": "esempio"},
+   {"all": "I Trigger"},
+   {"all": "Creazione di un trigger: CREATE TRIGGER"},
+   {"all": "Eventi gestibili da un trigger: INSERT, UPDATE, DELETE"},
+   {"all": "Tempo di esecuzione dei trigger: AFTER e BEFORE"},
+   {"all": "Trigger multipli e ordine di esecuzione (FOLLOWS e PRECEDES)"},
+   {"all": "Usi comuni dei trigger: controllo, completamento, calcolo"},
+   {"all": "I record NEW e OLD nel codice dei trigger (in base all'evento gestito)"}
+  ],
+  "title": {"it": "SQL avanzato: cursori e trigger",
+	"en": "Advanced SQL: cursors and triggers"}
+ },
+ {
+  "date": "2022-05-27T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "all": "Esempi di trigger di controllo e calcolo per il database dei campionati",
+    "type": "esempio"
+   },
+   {"all": "Le Transazioni"},
+   {"all": "Gestire le transazioni: START TRANSACTION, COMMIT, ROLLBACK"},
+   {"all": "Autocommit delle transazioni"},
+   {"all": "Interfacciamento dei DBMS con i linguaggi di programmazione"},
+   {"all": "I cursori"},
+   {"all": "JAVA e i DBMS"},
+   {"all": "Il JDBC"},
+   {"all": "Specifica e caricamento di un driver DBMS con il JDBC"},
+   {"type": "esempio"}
+  ],
+  "title": {"it": "SQL avanzato: i trigger",
+	"en": "Advanced SQL: triggers"}
+ },
+ {
+  "date": "2022-06-01T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {"all": "Connessione a una base di dati con il JDBC tramite il DriverManager"},
+   {"all": "Liberare le risorse JDBC: 'chiusurà corretta degli oggetti"},
+   {"all": "Creare uno Statement JDBC"},
+   {"all": "Interrogare la base di dati tramite una Statement JDBC (executeQuery)"},
+   {"all": "Gestione dei risultati tramite i ResultSet JDBC"},
+   {"type": "esempio"},
+   {"all": "Query parametriche: il problema degli statement costruiti con concatenazioni di stringa"},
+   {"all": "Precompilazione di statement: i PreparedStatement"},
+   {"all": "Impostare i parametri in un PreparedStatement"},
+   {"all": "Eseguire un PreparedStatement"},
+   {"all": "Riutilizzare un PreparedStatement"},
+   {"type": "esempio"},
+   {"all": "Inserire/Aggiornare record tramite una Statement JDBC (executeUpdate)"},
+   {"all": "Specificare le colonne auto-generate da leggere dopo una INSERT"},
+   {"all": "Leggere gli ID auto-generati con al getGeneratedKeys"},
+   {"type": "esempio"},
+   {"all": "Chiamare una stored procedure da Java: i CallableStatement"},
+   {"all": "Predisporre un CallableStatement con parametri IN"},
+   {"all": "Eseguire un CallableStatement"},
+   {"all": "Leggere la tabella generata da una stored procedure"},
+   {"type": "esempio"},
+   {"all": "Registrare dei parametri OUT per un CallableStatement e leggerne il valore dopo l'esecuzione"},
+   {"all": "Eseguire una chiamata a funzione tramite un CallableStatement"},
+   {"type": "esempio"},
+   {"all": "Gestire le transazioni in Java: disabilitare l'autocommit"},
+   {"all": "Gestire le transazioni in Java: i metodi commit e rollback della Connection"},
+   {
+    "all": "Riassunto delle modalità d'uso del JDBC",
+    "ref": "labbd_campionato_java",
+    "type": "esempio"
+   },
+   {"all": "PHP e i DBMS"},
+   {"all": "Connessione a una base di dati in PHP (mysqli)"},
+   {"all": "Interrogare una base di dati in PHP"},
+   {"all": "Gestione dei risultati di una query in PHP"},
+   {"all": "La SQL injection"},
+   {"all": "Uso di un database abstraction layer in PHP per ottenere un'astrazione simile o superiore a quella del JDBC"},
+   {"all": "Astrarre la logica del codice degli aspetti legati al DBMS: prime idee"},
+   {"all": "Cenni su argomenti avanzati: l'Object-Relational Mapping"},
+   {"all": "Segmento di lezione tenuto dal prof. Di Sanzo"}
+  ],
+  "title": {"it": "Basi di dati e linguaggi di programmazione",
+	"en": "Databases and programming languages"}
+ },
+ {
+  "date": "2022-06-03T09:30:00",
+  "duration": 2,
+  "arguments": [{"all": "Chiarimenti relativi ai progetti d'esame e discussione con i singoli gruppi"}],
+  "title": {
+   "en": "Discussion on final projects",
+   "it": "Revisione progetti"
+  }
+ }
+]

@@ -1,0 +1,161 @@
+{
+ "nome":"Laboratorio di Basi di Dati",
+ "codice":"F0138",
+ "descrizione": {
+   "it":"Corso di Laboratorio di Basi di Dati, Università dell'Aquila",
+   "en":"Laboratorio di Basi di Dati course, University of L'Aquila"
+  },
+  "docente": {
+	"nome":"Giuseppe Della Penna",
+	"url":"https://www.disim.univaq.it/GiuseppeDellaPenna",
+    "email": "giuseppe.dellapenna@univaq.it",
+    "ricevimento": {
+      "it":"Mercoledì, 15-17",
+	  "en":"Wednesday, 15-17"
+    }
+  },
+ "obiettivi": {
+   "it":"Il corso fornisce una panoramica completa sulle tecniche e gli strumenti per la progettazione e lo sviluppo di una base di dati, applicati su esempi reali utilizzando gli strumenti software più diffusi",
+   "en":"The course provides a complete overview of the techniques and tools required for the design and development of databases, applied to real examples using the most common software tools"
+  },
+ "prerequisiti": {
+   "it":"Conoscenza di base della programmazione imperativa",
+   "en":"Base knowledge of imperative programming concepts"
+  },
+ "lezioni": {
+   "it":"Le lezioni sono di carattere prettamente pratico, e prevedono lo sviluppo interattivo di esempi in aula; gli studenti sono incoraggiati a partecipare alle lezioni facendo domande e discutendo le soluzioni adottate negli esempi sviluppati",
+   "en":"Lectures are mainly practical, and include the interactive development of examples; students are encouraged to participate to the lectures by making questions and discussing the solutions adopted in the developed examples"
+  },
+ "esame": {
+   "it":"La valutazione finale prevede lo sviluppo (in gruppo) di un progetto e un’eventuale prova orale (individuale). Il progetto da sviluppare consiste in un database, da progettare e implementare insieme a una serie di query ad esso riferite. La prova orale parte dalla discussione del progetto e ha lo scopo di verificare il livello collaborazione nel gruppo e il contributo individuale al progetto",
+   "en":"The final evaluation involves the development of a project (in group) and a possible oral exam (individual). The project to be developed consists of a database, to be designed and implemented together with a series of related queries. The oral exam starts from the discussion of the project and aims to verify the achieved level of teamwork and the individual contribution to the project"
+  },
+ "testi": [
+    {
+     "autori":"Atzeni, Ceri, Fraternali, Paraboschi, Torlone",
+     "titolo":"Basi di dati - Modelli e linguaggi di interrogazione",
+     "editore":"McGraw-Hill",
+	 "lingua": "it"
+    }
+  ],
+ "sillabo": [
+    
+{"peso":12,"argomenti":[
+      {
+       "it":"Analisi dei requisiti",
+       "en":"Requirements analysis"
+      },
+      {
+       "it":"Progettazione concettuale delle basi di dati",
+       "en":"Conceptual databases design"
+      },
+      {
+       "it":"I diagrammi Entità-Relazione",
+       "en":"The Entity-Relationship diagrams"
+      }
+    ]},
+{"peso":12,"argomenti":
+    [
+      {
+       "it":"Progettazione logica delle basi di dati",
+       "en":"Logical database design"
+      },
+      {
+       "it":"Ristrutturazione e ottimizzazione di diagrammi ER",
+       "en":"Restructuring and optimization of ER diagrams"
+      },
+      {
+       "it":"Passaggio da modello concettuale a modello logico",
+       "en":"Switching from  conceptual model to logical model"
+      }
+    ]},
+{"peso":10,"argomenti":
+    [
+      {
+       "it":"I tipi di dato in SQL",
+       "en":"Data types in SQL"
+      },
+      {
+       "it":"Operatori ed espressioni in SQL",
+       "en":"Operators and expressions in SQL"
+      },
+      {
+       "it":"Gestione delle utenze e dei permessi in un DBMS",
+       "en":"User management and permissions in a DBMS"
+      },
+      {
+       "it":"Creazione e modifica di tabelle in SQL",
+       "en":"Creating and editing tables in SQL"
+      },
+      {
+       "it":"Vincoli su tabelle",
+       "en":"Table constraints"
+      },
+      {
+       "it":"Vincoli di integrità referenziale",
+       "en":"Referential integrity constraints"
+      }
+    ]},
+{"peso":2,"argomenti":
+    [
+      {
+       "it":"Inserimento di dati in SQL",
+       "en":"Inserting data with SQL"
+      },
+      {
+       "it":"Cancellazione di dati in SQL",
+       "en":"Deleting data with SQL"
+      },
+      {
+       "it":"Modifica di dati in SQL",
+       "en":"Updating data with SQL"
+      }
+    ]},
+{"peso":12,"argomenti":
+    [
+      {
+       "it":"Interrogazioni di base in SQL",
+       "en":"Basic SQL queries"
+      },
+      {
+       "it":"Interrogazioni avanzate: join interno ed esterno tra tabelle",
+       "en":"Advanced queries: internal and external joins between tables"
+      },
+      {
+       "it":"Interrogazioni avanzate: subquery",
+       "en":"Advanced queries: subqueries"
+      },
+      {
+       "it":"Interrogazioni avanzate: raggruppamento dei record",
+       "en":"Advanced queries: grouping"
+      },
+      {
+       "it":"Interrogazioni avanzate: query di unione, intersezione, differenza",
+       "en":"Advanced queries: union, intersection, difference"
+      }
+    ]},
+{"peso":12,"argomenti":
+    [
+      {
+       "it":"Concetti avanzati di SQL: viste",
+       "en":"Advanced SQL Concepts: views"
+      },
+      {
+       "it":"Concetti avanzati di SQL: procedure",
+       "en":"Advanced SQL Concepts: procedures"
+      },
+      {
+       "it":"Concetti avanzati di SQL: trigger",
+       "en":"Advanced SQL Concepts: triggers"
+      },
+      {
+       "it":"Interfacciamento con i linguaggi di programmazione: Java/JDBC",
+       "en":"Interfacing with programming languages: Java /JDBC"
+      },
+      {
+       "it":"Interfacciamento con i linguaggi di programmazione: PHP",
+       "en":"Interfacing with programming languages: PHP"
+      }
+]}
+  ]
+}
