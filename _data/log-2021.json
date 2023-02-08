@@ -6,27 +6,27 @@
    {"all": "Presentazione del corso"},
    {"all": "Perchè le basi di dati sono importanti?"},
    {
-    "all": "Esempio Gestire i dati: dai metodi 'fatti in casà ai server DBMS",
+    "all": "Gestire i dati: dai metodi 'fatti in casà ai server DBMS",
     "type": "esempio"
    },
    {"all": "Per gestire la persistenza dei dati dobbiamo usare per forza un DBMS?"},
    {
-    "all": "I I DBMS serverless come SQLite",
+    "all": "I DBMS serverless come SQLite",
     "type": "esempio"
    },
    {"all": "Perchè usiamo (ancora) il modello relazionale?"},
    {"all": "E le basi di dati NoSQL?"},
    {
-    "all": "I L'affermazione delle basi di dati document-oriented come MongoDB",
+    "all": "L'affermazione delle basi di dati document-oriented come MongoDB",
     "type": "esempio"
    },
    {
-    "all": "I L'affermazione delle basi di dati a grafo nelle applicazioni di data analytics",
+    "all": "L'affermazione delle basi di dati a grafo nelle applicazioni di data analytics",
     "type": "esempio"
    },
    {"all": "SQL e NoSQL sono veramente mondi isolati?"},
    {
-    "all": "I Le estensioni NoSQL dei database relazionali (e viceversa)",
+    "all": "Le estensioni NoSQL dei database relazionali (e viceversa)",
     "type": "esempio"
    },
    {"all": "Gli errori più comuni nelle basi di dati e le loro (catastrofiche) conseguenze"},
