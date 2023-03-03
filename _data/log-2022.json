@@ -4,9 +4,9 @@
   "duration": 3,
   "arguments": [
    {"all": "Presentazione del corso"},
-   {"all": "Perchè le basi di dati sono importanti?"},
+   {"all": "Perché le basi di dati sono importanti?"},
    {
-    "all": "Esempio Gestire i dati: dai metodi 'fatti in casà ai server DBMS",
+    "all": "Esempio Gestire i dati: dai metodi 'fatti in casa' ai server DBMS",
     "type": "esempio"
    },
    {"all": "Per gestire la persistenza dei dati dobbiamo usare per forza un DBMS?"},
@@ -14,7 +14,7 @@
     "all": "I I DBMS serverless come SQLite",
     "type": "esempio"
    },
-   {"all": "Perchè usiamo (ancora) il modello relazionale?"},
+   {"all": "Perché usiamo (ancora) il modello relazionale?"},
    {"all": "E le basi di dati NoSQL?"},
    {
     "all": "I L'affermazione delle basi di dati document-oriented come MongoDB",
@@ -42,6 +42,56 @@
   "title": {
    "en": "Introduction",
    "it": "Introduzione al corso"
+  }
+ },
+ {
+  "date": "2023-03-03T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "all": "La progettazione concettuale",
+    "ref": "DBPpdf"
+   },
+   {"all": "I diagrammi Entità - Relazione"},
+   {"all": "Entità nei diagrammi ER"},
+   {
+    "all": "L'Università: entità",
+    "type": "esempio"
+   },
+   {"all": "Attributi nei diagrammi ER"},
+   {
+    "all": "Attributi ed Entità: come non confondere i due concetti",
+    "type": "esempio"
+   },
+   {
+    "all": "L'Università: attributi",
+    "type": "esempio"
+   },
+   {"all": "Attributi composti"},
+   {
+    "all": "Quando è utile usare un attributo composto",
+    "type": "esempio"
+   },
+   {"all": "Attributi con molteplicità"},
+   {"all": "Identificare univocamente le istanze di un'entità"},
+   {"all": "Chiavi nelle entità"},
+   {"all": "Scelta della chiave primaria tra le chiavi candidate"},
+   {
+    "all": "L'Università: chiavi",
+    "type": "esempio"
+   },
+   {
+    "all": "Entità (apparentemente) prive di chiave",
+    "type": "esempio"
+   },
+   {
+    "all": "L'Azienda: analisi dei requisiti",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "ER Modelling 1",
+   "it": "Modellazione ER 1"
   }
  }
 ]
