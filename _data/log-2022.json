@@ -50,7 +50,8 @@
   "arguments": [
    {
     "all": "La progettazione concettuale",
-    "ref": "Slides ER"
+    "ref": "Slides ER",
+	"link":"https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
    },
    {"all": "I diagrammi Entità - Relazione"},
    {"all": "Entità nei diagrammi ER"},
@@ -92,6 +93,41 @@
   "title": {
    "en": "ER Modelling 1",
    "it": "Modellazione ER 1"
+  }
+ },
+ {
+  "date": "2022-03-08T08:30:00",
+  "duration": 3,
+  "arguments": [
+   {
+    "all": "L'Azienda: entità, attributi e chiavi",
+    "type": "esempio"
+   },
+   {"all": "Documentazione dei diagrammi ER: i tipi di dato"},
+   {"all": "Generalizzazione di entità"},
+   {"all": "Generalizzazioni totali e parziali"},
+   {"all": "Generalizzazioni e chiavi"},
+   {
+    "all": "Il supermercato: entità, attributi e chiavi",
+    "type": "esempio"
+   },
+   {"all": "Relazioni"},
+   {"all": "Relazioni non binarie"},
+   {
+    "all": "Il supermercato: relazioni",
+    "type": "esempio"
+   },
+   {"all": "Relazioni e generalizzazioni"},
+   {"all": "Auto-Relazioni"},
+   {"all": "Ruoli nelle relazioni"},
+   {
+    "all": "L'azienda: relazioni",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "ER Modelling 2",
+   "it": "Modellazione ER 2 "
   }
  }
 ]
