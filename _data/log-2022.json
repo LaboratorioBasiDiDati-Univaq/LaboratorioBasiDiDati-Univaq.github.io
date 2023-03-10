@@ -96,7 +96,7 @@
   }
  },
  {
-  "date": "2022-03-08T08:30:00",
+  "date": "2023-03-08T08:30:00",
   "duration": 3,
   "arguments": [
    {
@@ -123,11 +123,48 @@
    {
     "all": "L'azienda: relazioni",
     "type": "esempio"
+   },
+   {
+    "all": "Modellare il concetto di \"storico\"per un'associazione: soluzioni e considerazioni",
+    "type": "esempio"
    }
   ],
   "title": {
    "en": "ER Modelling 2",
-   "it": "Modellazione ER 2 "
+   "it": "Modellazione ER 2"
+  }
+ },
+ {
+  "date": "2023-03-10T09:30:00",
+  "duration": 2,
+  "arguments": [
+   {"all": "Attributi sulle relazioni"},
+   {
+    "all": "Il supermercato: attributi sulle relazioni",
+    "type": "esempio"
+   },
+   {
+    "all": "L'azienda: attributi sulle relazioni",
+    "type": "esempio"
+   },
+   {"all": "Attributi derivabili"},
+   {
+    "all": "L'azienda: attributi derivabili e considerazioni sulla loro implementazione",
+    "type": "esempio"
+   },
+    {
+    "all": "Il supermercato: attributi derivabili e considerazioni sulla loro implementazione",
+    "type": "esempio"
+   },
+   {"all": "Cardinalità delle relazioni"},
+   {
+    "all": "Il supermercato: relazioni con cardinalità",
+    "type": "esempio"
+   }  
+  ],
+  "title": {
+   "en": "ER Modelling 3",
+   "it": "Modellazione ER 3"
   }
  }
 ]
