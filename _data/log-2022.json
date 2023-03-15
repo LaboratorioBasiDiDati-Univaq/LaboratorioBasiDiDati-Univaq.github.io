@@ -1,170 +1,304 @@
 [
- {
-  "date": "2023-03-01T08:30:00",
-  "duration": 3,
-  "arguments": [
-   {"all": "Presentazione del corso"},
-   {"all": "Perché le basi di dati sono importanti?"},
-   {
-    "all": "Esempio Gestire i dati: dai metodi 'fatti in casa' ai server DBMS",
-    "type": "esempio"
-   },
-   {"all": "Per gestire la persistenza dei dati dobbiamo usare per forza un DBMS?"},
-   {
-    "all": "I I DBMS serverless come SQLite",
-    "type": "esempio"
-   },
-   {"all": "Perché usiamo (ancora) il modello relazionale?"},
-   {"all": "E le basi di dati NoSQL?"},
-   {
-    "all": "I L'affermazione delle basi di dati document-oriented come MongoDB",
-    "type": "esempio"
-   },
-   {
-    "all": "I L'affermazione delle basi di dati a grafo nelle applicazioni di data analytics",
-    "type": "esempio"
-   },
-   {"all": "SQL e NoSQL sono veramente mondi isolati?"},
-   {
-    "all": "I Le estensioni NoSQL dei database relazionali (e viceversa)",
-    "type": "esempio"
-   },
-   {"all": "Gli errori più comuni nelle basi di dati e le loro (catastrofiche) conseguenze"},
-   {"all": "Il processo di realizzazione di una base di dati"},
-   {"all": "Le fasi della progettazione: concettuale, logica, fisica"},
-   {"all": "Gli strumenti per ciascuna fase di progettazione"},
-   {"all": "Analisi delle specifiche"},
-   {
-    "all": "L'Università: analisi dei requisiti",
-    "type": "esempio"
-   }
-  ],
-  "title": {
-   "en": "Introduction",
-   "it": "Introduzione al corso"
+  {
+    "date": "2023-03-01 08:30:00",
+    "duration": 3,
+    "arguments": [
+      {
+        "all": "Presentazione del corso"
+      },
+      {
+        "all": "Perch\u00e9 le basi di dati sono importanti?"
+      },
+      {
+        "all": "Esempio Gestire i dati: dai metodi 'fatti in casa' ai server DBMS",
+        "type": "esempio"
+      },
+      {
+        "all": "Per gestire la persistenza dei dati dobbiamo usare per forza un DBMS?"
+      },
+      {
+        "all": "I I DBMS serverless come SQLite",
+        "type": "esempio"
+      },
+      {
+        "all": "Perch\u00e9 usiamo (ancora) il modello relazionale?"
+      },
+      {
+        "all": "E le basi di dati NoSQL?"
+      },
+      {
+        "all": "I L'affermazione delle basi di dati document-oriented come MongoDB",
+        "type": "esempio"
+      },
+      {
+        "all": "I L'affermazione delle basi di dati a grafo nelle applicazioni di data analytics",
+        "type": "esempio"
+      },
+      {
+        "all": "SQL e NoSQL sono veramente mondi isolati?"
+      },
+      {
+        "all": "I Le estensioni NoSQL dei database relazionali (e viceversa)",
+        "type": "esempio"
+      },
+      {
+        "all": "Gli errori pi\u00f9 comuni nelle basi di dati e le loro (catastrofiche) conseguenze"
+      },
+      {
+        "all": "Il processo di realizzazione di una base di dati"
+      },
+      {
+        "all": "Le fasi della progettazione: concettuale, logica, fisica"
+      },
+      {
+        "all": "Gli strumenti per ciascuna fase di progettazione"
+      },
+      {
+        "all": "Analisi delle specifiche"
+      },
+      {
+        "all": "L'Universit\u00e0: analisi dei requisiti",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "Introduction",
+      "it": "Introduzione al corso"
+    }
+  },
+  {
+    "date": "2023-03-03 09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "ER",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "La progettazione concettuale"
+      },
+      {
+        "all": "I diagrammi Entit\u00e0 - Relazione"
+      },
+      {
+        "all": "Entit\u00e0 nei diagrammi ER"
+      },
+      {
+        "all": "L'Universit\u00e0: entit\u00e0",
+        "type": "esempio"
+      },
+      {
+        "all": "Attributi nei diagrammi ER"
+      },
+      {
+        "all": "Attributi ed Entit\u00e0: come non confondere i due concetti",
+        "type": "esempio"
+      },
+      {
+        "all": "L'Universit\u00e0: attributi",
+        "type": "esempio"
+      },
+      {
+        "all": "Attributi composti"
+      },
+      {
+        "all": "Quando \u00e8 utile usare un attributo composto",
+        "type": "esempio"
+      },
+      {
+        "all": "Attributi con molteplicit\u00e0"
+      },
+      {
+        "all": "Identificare univocamente le istanze di un'entit\u00e0"
+      },
+      {
+        "all": "Chiavi nelle entit\u00e0"
+      },
+      {
+        "all": "Scelta della chiave primaria tra le chiavi candidate"
+      },
+      {
+        "all": "L'Universit\u00e0: chiavi",
+        "type": "esempio"
+      },
+      {
+        "all": "Entit\u00e0 (apparentemente) prive di chiave",
+        "type": "esempio"
+      },
+      {
+        "all": "L'Azienda: analisi dei requisiti",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "ER Modelling 1",
+      "it": "Modellazione ER 1"
+    }
+  },
+  {
+    "date": "2023-03-08 08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "ER",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "L'Azienda: entit\u00e0, attributi e chiavi",
+        "type": "esempio"
+      },
+      {
+        "all": "Documentazione dei diagrammi ER: i tipi di dato"
+      },
+      {
+        "all": "Generalizzazione di entit\u00e0"
+      },
+      {
+        "all": "Generalizzazioni totali e parziali"
+      },
+      {
+        "all": "Generalizzazioni e chiavi"
+      },
+      {
+        "all": "Il supermercato: entit\u00e0, attributi e chiavi",
+        "type": "esempio"
+      },
+      {
+        "all": "Relazioni"
+      },
+      {
+        "all": "Relazioni non binarie"
+      },
+      {
+        "all": "Il supermercato: relazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "Relazioni e generalizzazioni"
+      },
+      {
+        "all": "Auto-Relazioni"
+      },
+      {
+        "all": "Ruoli nelle relazioni"
+      },
+      {
+        "all": "L'azienda: relazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "Modellare il concetto di \"storico\"per un'associazione: soluzioni e considerazioni",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "ER Modelling 2",
+      "it": "Modellazione ER 2"
+    }
+  },
+  {
+    "date": "2023-03-10 09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "ER",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Attributi sulle relazioni"
+      },
+      {
+        "all": "Il supermercato: attributi sulle relazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "L'azienda: attributi sulle relazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "Attributi derivabili"
+      },
+      {
+        "all": "L'azienda: attributi derivabili e considerazioni sulla loro implementazione",
+        "type": "esempio"
+      },
+      {
+        "all": "Il supermercato: attributi derivabili e considerazioni sulla loro implementazione",
+        "type": "esempio"
+      },
+      {
+        "all": "Cardinalit\u00e0 delle relazioni"
+      },
+      {
+        "all": "Il supermercato: relazioni con cardinalit\u00e0",
+        "type": "esempio",
+        "ref": "ER_Exmples - Supermarket",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+      }
+    ],
+    "title": {
+      "en": "ER Modelling 3",
+      "it": "Modellazione ER 3"
+    }
+  },
+  {
+    "date": "2023-03-15 08:30:00",
+    "duration": 3,
+    "arguments": [
+      {
+        "all": "L'azienda: relazioni con cardinalit\u00e0",
+        "type": "esempio",
+        "ref": "ER_Exmples - Azienda",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+      },
+      {
+        "all": "L'Universit\u00e0: relazioni",
+        "type": "esempio",
+        "ref": "ER_Exmples - CdL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+      },
+      {
+        "all": "Entit\u00e0 deboli e chiavi con relazioni"
+      },
+      {
+        "all": "L'Universit\u00e0: chiavi per le entit\u00e0 deboli",
+        "type": "esempio"
+      },
+      {
+        "all": "Cardinalit\u00e0 ammesse per le relazioni con entit\u00e0 deboli"
+      },
+      {
+        "all": "L'Auto-Relazione mutuazione tra gli insegnamenti",
+        "type": "esempio"
+      },
+      {
+        "all": "La rivista",
+        "type": "esempio"
+      },
+      {
+        "all": "La rivista: quando una generalizzazione esprime molti pi\u00f9 vincoli di una (o due) relazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "La rivista: vari modi di modellare il sotto-diagramma uscita/pagina/riquadro/contenuto/articolo/figura",
+        "type": "esempio"
+      },
+      {
+        "all": "La rivista: diagramma ER finale",
+        "type": "esempio",
+        "ref": "ER_Exmples - Rivista",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+      }
+    ],
+    "title": {
+      "en": "ER Modelling - final examples",
+      "it": "Esercitazione finale sui diagrammi ER"
+    }
   }
- },
- {
-  "date": "2023-03-03T09:30:00",
-  "duration": 2,
-  "arguments": [
-   {
-    "all": "La progettazione concettuale",
-    "ref": "Slides ER",
-	"link":"https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
-   },
-   {"all": "I diagrammi Entità - Relazione"},
-   {"all": "Entità nei diagrammi ER"},
-   {
-    "all": "L'Università: entità",
-    "type": "esempio"
-   },
-   {"all": "Attributi nei diagrammi ER"},
-   {
-    "all": "Attributi ed Entità: come non confondere i due concetti",
-    "type": "esempio"
-   },
-   {
-    "all": "L'Università: attributi",
-    "type": "esempio"
-   },
-   {"all": "Attributi composti"},
-   {
-    "all": "Quando è utile usare un attributo composto",
-    "type": "esempio"
-   },
-   {"all": "Attributi con molteplicità"},
-   {"all": "Identificare univocamente le istanze di un'entità"},
-   {"all": "Chiavi nelle entità"},
-   {"all": "Scelta della chiave primaria tra le chiavi candidate"},
-   {
-    "all": "L'Università: chiavi",
-    "type": "esempio"
-   },
-   {
-    "all": "Entità (apparentemente) prive di chiave",
-    "type": "esempio"
-   },
-   {
-    "all": "L'Azienda: analisi dei requisiti",
-    "type": "esempio"
-   }
-  ],
-  "title": {
-   "en": "ER Modelling 1",
-   "it": "Modellazione ER 1"
-  }
- },
- {
-  "date": "2023-03-08T08:30:00",
-  "duration": 3,
-  "arguments": [
-   {
-    "all": "L'Azienda: entità, attributi e chiavi",
-    "type": "esempio"
-   },
-   {"all": "Documentazione dei diagrammi ER: i tipi di dato"},
-   {"all": "Generalizzazione di entità"},
-   {"all": "Generalizzazioni totali e parziali"},
-   {"all": "Generalizzazioni e chiavi"},
-   {
-    "all": "Il supermercato: entità, attributi e chiavi",
-    "type": "esempio"
-   },
-   {"all": "Relazioni"},
-   {"all": "Relazioni non binarie"},
-   {
-    "all": "Il supermercato: relazioni",
-    "type": "esempio"
-   },
-   {"all": "Relazioni e generalizzazioni"},
-   {"all": "Auto-Relazioni"},
-   {"all": "Ruoli nelle relazioni"},
-   {
-    "all": "L'azienda: relazioni",
-    "type": "esempio"
-   },
-   {
-    "all": "Modellare il concetto di \"storico\"per un'associazione: soluzioni e considerazioni",
-    "type": "esempio"
-   }
-  ],
-  "title": {
-   "en": "ER Modelling 2",
-   "it": "Modellazione ER 2"
-  }
- },
- {
-  "date": "2023-03-10T09:30:00",
-  "duration": 2,
-  "arguments": [
-   {"all": "Attributi sulle relazioni"},
-   {
-    "all": "Il supermercato: attributi sulle relazioni",
-    "type": "esempio"
-   },
-   {
-    "all": "L'azienda: attributi sulle relazioni",
-    "type": "esempio"
-   },
-   {"all": "Attributi derivabili"},
-   {
-    "all": "L'azienda: attributi derivabili e considerazioni sulla loro implementazione",
-    "type": "esempio"
-   },
-    {
-    "all": "Il supermercato: attributi derivabili e considerazioni sulla loro implementazione",
-    "type": "esempio"
-   },
-   {"all": "Cardinalità delle relazioni"},
-   {
-    "all": "Il supermercato: relazioni con cardinalità",
-    "type": "esempio"
-   }  
-  ],
-  "title": {
-   "en": "ER Modelling 3",
-   "it": "Modellazione ER 3"
-  }
- }
 ]
