@@ -238,7 +238,7 @@
       {
         "all": "Il supermercato: relazioni con cardinalit\u00e0",
         "type": "esempio",
-        "ref": "ER_Exmples - Supermarket",
+        "ref": "ER_Examples - Supermarket",
         "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
       }
     ],
@@ -254,13 +254,13 @@
       {
         "all": "L'azienda: relazioni con cardinalit\u00e0",
         "type": "esempio",
-        "ref": "ER_Exmples - Azienda",
+        "ref": "ER_Examples - Azienda",
         "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
       },
       {
         "all": "L'Universit\u00e0: relazioni",
         "type": "esempio",
-        "ref": "ER_Exmples - CdL",
+        "ref": "ER_Examples - CdL",
         "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
       },
       {
@@ -292,13 +292,54 @@
       {
         "all": "La rivista: diagramma ER finale",
         "type": "esempio",
-        "ref": "ER_Exmples - Rivista",
+        "ref": "ER_Examples - Rivista",
         "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
       }
     ],
     "title": {
       "en": "ER Modelling - final examples",
       "it": "Esercitazione finale sui diagrammi ER"
+    }
+  },
+  {
+    "date": "2023-03-17T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "ER-Relazionale",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Ristrutturazione dei diagrammi ER"
+      },
+      {
+        "all": "Parametri di ottimizzazione: determinare lo schema di accesso ai dati dalle funzionalit\u00e0 previste"
+      },
+      {
+        "all": "Cosa significa \"cancellare\" in una base di dati, quando le entit\u00e0 sono relazionate tra loro?"
+      },
+      {
+        "all": "Ristrutturazione: Eliminazione attributi composti"
+      },
+      {
+        "all": "Ristrutturazione: Eliminazione attributi con cardinalit\u00e0"
+      },
+      {
+        "all": "Vari modi per ottimizzare l'eliminazione di un attributo con cardinalit\u00e0",
+        "type": "esempio"
+      },
+      {
+        "all": "Ristrutturazione: Attributi derivabili"
+      },
+      {
+        "all": "Criteri per l'introduzione o l'eliminazione di un attributo derivabile"
+      }
+    ],
+    "title": {
+      "en": "ER Optimization and Reorganization 1",
+      "it": "Ristrutturazione e Ottimizzazione dei diagrammi ER 1"
     }
   }
 ]
