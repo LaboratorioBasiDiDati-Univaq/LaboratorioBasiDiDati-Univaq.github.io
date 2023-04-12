@@ -71,7 +71,7 @@ all'indirizzo <https://github.com/jgraph/drawio-desktop/releases>.
 
 - Terminate il processo di installazione.
 
-Nota: su sistemi Windows, se avete installato il "**MySQL notifier** " (che sta comunque venendo dismesso, quindi potrebbe non essere più disponibile), potrete usarlo per avviare e fermare il relativo servizio (cioè il server MySQL). In alternativa, aprite il *Task manager* (Gestione attività), selezionate la pagina dei *Servizi*, individuate MySQL, cliccateci col tasto destro e selezionate l'operazione da eseguire.
+> Nota: su sistemi Windows, se avete installato il "**MySQL notifier** " (che sta comunque venendo dismesso, quindi potrebbe non essere più disponibile), potrete usarlo per avviare e fermare il relativo servizio (cioè il server MySQL). In alternativa, aprite il *Task manager* (Gestione attività), selezionate la pagina dei *Servizi*, individuate MySQL, cliccateci col tasto destro e selezionate l'operazione da eseguire.
 
 ### Installazione per sistemi Unix
 
@@ -88,6 +88,12 @@ E' possibile installare il server e il workbench separatamente scaricando i pacc
 e <https://dev.mysql.com/downloads/workbench/>.
 
 In ogni caso, date un'occhiata alle istruzioni di installazione per Windows, in modo da sapere quali componenti installare (se disponibili per la vostra piattaforma) e quali impostazioni applicare (nel caso siano impostabili sulla vostra piattaforma).
+
+> Nota: le versioni del workbench a partire dalla *8.0.23* contengono **un  bug che ne impedisce il funzionamento su MacOS**. 
+> Tale bug continua ad essere presente 
+> nell'ultima versione (8.0.32) disponibile al momento della scrittura di questa 
+> guida. E' quindi necessario accedere alla sezione archivio download 
+(<https://downloads.mysql.com/archives/workbench/>) e scaricare la versione *8.0.22*.
 
 ## Avvio e configurazione di MySQL Workbench
 
