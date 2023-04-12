@@ -751,7 +751,12 @@
         "all": "Funzioni scalari SQL"
       },
       {
-        "all": "Funzioni scalari in MySQL"
+        "all": "Funzioni scalari in MySQL",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html"
+          }
+        ]
       },
       {
         "type": "esempio"
@@ -760,10 +765,15 @@
         "all": "Funzioni stringa SQL"
       },
       {
-        "all": "Funzioni stringa in MySQL"
+        "all": "Funzioni stringa in MySQL",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.0/en/string-functions.html"
+          }
+        ]
       },
       {
-        "all": "I tre delimitatori usati in MySQL: virgolette (\"), apici (') e backtick (`)",
+        "all": "I tre delimitatori usati in MySQL: virgolette (\"), apici (') e backtick (`)"
       },
       {
         "type": "esempio"
@@ -772,13 +782,23 @@
         "all": "Funzioni temporali SQL"
       },
       {
-        "all": "Funzioni temporali in MySQL"
+        "all": "Funzioni temporali in MySQL",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html"
+          }
+        ]
       },
       {
         "type": "esempio"
       },
       {
-        "all": "Operatori di confronto SQL"
+        "all": "Operatori di confronto SQL",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.0/en/comparison-operators.html"
+          }
+        ]
       },
       {
         "all": "Operatori di confronto SQL: BETWEEN e IN"
