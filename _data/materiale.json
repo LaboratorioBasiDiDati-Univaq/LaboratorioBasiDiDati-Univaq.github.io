@@ -26,10 +26,10 @@
     }
   ],
   "examples": [
-   
-	{
+    {
       "nome": {
-        "it": "Esempi ER sviluppati in aula", "en":"ER examples developed during the lectures"
+        "it": "Esempi ER sviluppati in aula",
+        "en": "ER examples developed during the lectures"
       },
       "url": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples",
       "commento": {
@@ -38,7 +38,8 @@
     },
     {
       "nome": {
-        "it": "Esempi SQL sviluppati in aula", "en":"SQL examples developed during the lectures"
+        "it": "Esempi SQL sviluppati in aula",
+        "en": "SQL examples developed during the lectures"
       },
       "url": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples",
       "commento": {
@@ -47,12 +48,13 @@
     },
     {
       "nome": {
-        "it": "Java e JDBC", "en":"Java and JDBC"
+        "it": "Java e Database",
+        "en": "Java and Databases"
       },
-      "url": "https://github.com/LaboratorioBasiDiDati-Univaq/JDBC_Example",
+      "url": "https://github.com/orgs/LaboratorioBasiDiDati-Univaq/repositories?q=Java_",
       "commento": {
-        "it": "Questo progetto mostra, con procedure separate, tutte le principali modalità di interazione con MySQL tramite JDBC da Java"
+        "it": "Questi progetti mostrano tutte le principali modalit\u00e0 di interazione tra Java e un DBMS"
       }
-    }	
+    }
   ]
 }

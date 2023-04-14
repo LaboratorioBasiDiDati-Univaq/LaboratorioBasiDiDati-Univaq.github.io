@@ -808,5 +808,75 @@
       "en": "Introduction to SQL",
       "it": "Introduzione a SQL"
     }
+  },
+  {
+    "date": "2023-04-14T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Operatori di confronto SQL: LIKE"
+      },
+      {
+        "all": "Operatori di confronto SQL: IS NULL"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Gestione dell'utenza in un DBMS"
+      },
+      {
+        "all": "MySQL: utenti host-specific e sicurezza"
+      },
+      {
+        "all": "Il modo pi\u00f9 comune per interfacciare un'applicazione con un DBMS",
+        "type": "esempio"
+      },
+      {
+        "all": "Creazione di un database"
+      },
+      {
+        "all": "Creazione di tabelle"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "MySQL: identificatori case sensitive in base alla piattaforma!"
+      },
+      {
+        "all": "La parola chiave DEFAULT sulle colonne"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Il create/alter table wizard di MySQL Workbench: alcuni trucchi per sfruttarlo e imparare",
+        "type": "esempio"
+      },
+      {
+        "all": "Gestione dei permessi in un DBMS"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Lo user manager di MySQL Workbench: caratteristiche e limiti",
+        "type": "esempio"
+      },
+      {
+        "all": "Presentazione dei progetti di esame"
+      }
+    ],
+    "title": {
+      "en": "SQL: database and table creation",
+      "it": "SQL: creazione di database e tabelle"
+    }
   }
 ]
