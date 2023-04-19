@@ -1,6 +1,7 @@
 {
  "nome":"Laboratorio di Basi di Dati",
  "codice":"F0138",
+ "durata":60,
  "descrizione": {
    "it":"Corso di Laboratorio di Basi di Dati, Università dell'Aquila",
    "en":"Laboratorio di Basi di Dati course, University of L'Aquila"

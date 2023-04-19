@@ -878,5 +878,92 @@
       "en": "SQL: database and table creation",
       "it": "SQL: creazione di database e tabelle"
     }
+  },
+  {
+    "date": "2023-04-19T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Vincoli su tabelle"
+      },
+      {
+        "all": "Assegnare un nome ai vincoli"
+      },
+      {
+        "all": "Introduzione alle transazioni"
+      },
+      {
+        "all": "Differibilit\u00e0 dei vincoli"
+      },
+      {
+        "all": "Specifica di chiavi: PRIMARY KEY e UNIQUE"
+      },
+      {
+        "all": "Tecniche speciali per la generazione di chiavi primarie"
+      },
+      {
+        "all": "MySQL: caratteristiche delle colonne auto_increment",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.0/en/example-auto-increment.html"
+          }
+        ]
+      },
+      {
+        "all": "Indici creati nel database dai vincoli PRIMARY KEY e UNIQUE"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Vincoli NOT NULL sulle colonne"
+      },
+      {
+        "all": "Le combinazioni di DEFAULT e NOT NULL e il loro significato",
+        "type": "esempio"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Chiavi esterne e vincoli di integrit\u00e0 referenziale: FOREIGN KEY ... REFERENCES"
+      },
+      {
+        "all": "Relazioni ER, riferimenti relazionali e FOREIGN KEY SQL",
+        "type": "esempio"
+      },
+      {
+        "type": "esempio"
+      },	  
+      {
+        "all": "Tipi di dato e FOREIGN KEY"
+      },
+      {
+        "all": "Vincoli sui dati (e anche sui metadati) indotti dalle FOREIGN KEY"
+      },
+      {
+        "all": "Indici necessari e opzionali per realizzare una FOREIGN KEY"
+      },
+      {
+        "all": "Perch\u00e8 una FOREIGN KEY richiede (in MySQL) due indici?",
+        "type": "esempio"
+      },
+      {
+        "all": "Auto-relazioni e FOREIGN KEY cicliche: come definirle?"
+      },
+      {
+        "all": "Vincoli di integrit\u00e0 referenziale: il costrutto MATCH"
+      }
+    ],
+    "title": {
+      "en": "SQL: constraints",
+      "it": "SQL: i vincoli"
+    }
   }
 ]
