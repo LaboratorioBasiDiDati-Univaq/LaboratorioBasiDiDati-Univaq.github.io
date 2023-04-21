@@ -940,7 +940,7 @@
       },
       {
         "type": "esempio"
-      },	  
+      },
       {
         "all": "Tipi di dato e FOREIGN KEY"
       },
@@ -962,8 +962,70 @@
       }
     ],
     "title": {
-      "en": "SQL: constraints",
-      "it": "SQL: i vincoli"
+      "en": "SQL: constraints 1",
+      "it": "SQL: i vincoli 1"
+    }
+  },
+  {
+    "date": "2023-04-21T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Chiavi esterne e modifiche ai dati: come preservare l'integrit\u00e0 referenziale?",
+        "type": "esempio"
+      },
+      {
+        "all": "Vincoli di integrit\u00e0 referenziale: azioni ON DELETE e ON UPDATE"
+      },
+      {
+        "all": "Le combinazioni di azioni pi\u00f9 frequenti (e pi\u00f9 sensate) per ON DELETE e ON UPDATE",
+        "type": "esempio"
+      },
+      {
+        "all": "Creazione dei vincoli in SQL: considerazioni sulle azioni ON UPDATE e ON DELETE",
+        "type": "esempio"
+      },
+      {
+        "all": "Vincoli CHECK sulle tabelle"
+      },
+      {
+        "all": "Vincoli CHECK in MySQL 8"
+      },
+      {
+        "all": "Modifica e rimozione di vincoli in MySQL"
+      },
+      {
+        "all": "Cancellare un vincolo UNIQUE usando DROP INDEX in MySQL",
+        "type": "esempio"
+      },
+      {
+        "all": "Aggiungere una FOREIGN KEY a una tabella (post-creazione) in MySQL",
+        "type": "esempio"
+      },
+      {
+        "all": "Esportare un dump completo di una base di dati MySQL",
+        "type": "esempio"
+      },
+      {
+        "all": "Il Supermarket: implementazione fisica con SQL (COMING SOON!)",
+        "attachments": [
+          {
+            "name": "SQL_Examples - Supermarket",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+          }
+        ],
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "SQL: constraints 2",
+      "it": "SQL: i vincoli 2"
     }
   }
 ]
