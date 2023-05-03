@@ -1081,6 +1081,12 @@
         "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
       }
     ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
     "arguments": [
       {
         "all": "Inserimento di tuple in una tabella: INSERT INTO ... VALUES"
@@ -1189,6 +1195,12 @@
       {
         "name": "SQL",
         "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
       }
     ],
     "arguments": [
