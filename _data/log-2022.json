@@ -10,7 +10,7 @@
         "all": "Perch\u00e9 le basi di dati sono importanti?"
       },
       {
-        "all": "Esempio Gestire i dati: dai metodi 'fatti in casa' ai server DBMS",
+        "all": "Esempio Gestire i dati: dai metodi fatti in casa ai server DBMS",
         "type": "esempio"
       },
       {
@@ -1180,6 +1180,88 @@
     "title": {
       "it": "SQL: query di base",
       "en": "SQL: base queries"
+    }
+  },
+  {
+    "date": "2023-05-03T08:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Usare la funzione MySQL last_insert_id() per estrarre il valore dell'ultima chiave auto_increment generata"
+      },
+      {
+        "all": "Ordinamento dei risultati di una query: la clausola ORDER BY"
+      },
+      {
+        "all": "Ordinamento su colonne calcolate o non estratte dalla query",
+        "type": "esempio"
+      },
+      {
+        "all": "Limitazione dell'output: la clausola (non standard) LIMIT"
+      },
+      {
+        "all": "Paginazione (efficiente) dei risultati con la clausola LIMIT",
+        "type": "esempio"
+      },
+      {
+        "all": "Sotto-query semplici"
+      },
+      {
+        "all": "Sotto-query scalari usate nelle clausole WHERE e SELECT",
+        "type": "esempio"
+      },
+      {
+        "all": "Sotto-query correlate"
+      },
+      {
+        "all": "Sotto-query lista usate con l'operatore IN",
+        "type": "esempio"
+      },
+      {
+        "all": "Sotto-query usate con un operatori di confronto",
+        "type": "esempio"
+      },
+      {
+        "all": "Uso dei quantificatori ANY e ALL con query lista"
+      },
+      {
+        "all": "Join tra tabelle"
+      },
+      {
+        "all": "Join impliciti: condizioni di join e clausola WHERE"
+      },
+      {
+        "all": "Condizioni di join semplici e multiple",
+        "type": "esempio"
+      },
+      {
+        "all": "Mescolare condizioni di filtro e di join nella clausola WHERE",
+        "type": "esempio"
+      },
+      {
+        "all": "Join espliciti con l'operatore JOIN"
+      },
+      {
+        "all": "Join interni: l'operatore INNER JOIN e le sue varianti"
+      },
+      {
+        "all": "Spostare le condizioni di WHERE nel JOIN",
+        "type": "esempio"
+      },
+      {
+        "all": "Scrivere JOIN multipli concatenati",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "it": "SQL: sotto-query e join impliciti",
+      "en": "SQL: subqueries and implicit joins"
     }
   }
 ]
