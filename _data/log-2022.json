@@ -1275,5 +1275,101 @@
       "it": "SQL: sotto-query e join impliciti",
       "en": "SQL: subqueries and implicit joins"
     }
+  },
+  {
+    "date": "2023-05-05T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Scrivere JOIN tra sotto-JOIN (con parentesi di raggruppamento)",
+        "type": "esempio"
+      },
+      {
+        "all": "Problemi con i join effettuati con le condizioni WHERE: includere nei risultati record non relazionati",
+        "type": "esempio"
+      },
+      {
+        "all": "Join esterni: l'operatore OUTER JOIN e le sue varianti"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Aggregazione di record"
+      },
+      {
+        "all": "Gli operatori aggregati: COUNT, SUM, AVG, MIN, MAX"
+      },
+      {
+        "all": "Modificatori ALL e DISTINCT per gli operatori aggregati"
+      },
+      {
+        "all": "Le molte modalit\u00e0 dell'operatore COUNT: COUNT(*), COUNT(e), COUNT(DISTINCT e)",
+        "type": "esempio"
+      },
+      {
+        "all": "Trattamento dei valori NULL con gli operatori aggregati"
+      },
+      {
+        "all": "Limitazioni della clausola SELECT con gli operatori aggregati"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Il partizionamento: quando l'aggregazione globale non \u00e8 sufficiente"
+      },
+      {
+        "all": "Partizionamento di record: la clausola GROUP BY"
+      },
+      {
+        "all": "Uso degli operatori aggregati con la clausola GROUP BY"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Limitazioni della clausola SELECT in presenza della clausola GROUP BY"
+      },
+      {
+        "all": "Ordinamento dei risultati nelle query con raggruppamento"
+      },
+      {
+        "all": "Usare una colonna aggregata come criterio di ordinamento",
+        "type": "esempio"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Raggruppamento su pi\u00f9 colonne"
+      },
+      {
+        "all": "Condizioni sui gruppi di record: la clausola HAVING"
+      },
+      {
+        "all": "Perch\u00e8 c'\u00e8 bisogno di una clausola nuova per delle condizioni di filtro? La differenza tra WHERE e HAVING",
+        "type": "esempio"
+      },
+      {
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "it": "SQL: join espliciti e aggregazione di record",
+      "en": "SQL: explicit joins and record aggregation"
+    }
   }
 ]
