@@ -1229,6 +1229,9 @@
         "type": "esempio"
       },
       {
+        "all": "Regole di visibilit\u00e0 per gli identificatori nelle sotto-query (sotto-query correlate)"
+      },
+      {
         "all": "Sotto-query correlate"
       },
       {
@@ -1370,6 +1373,72 @@
     "title": {
       "it": "SQL: join espliciti e aggregazione di record",
       "en": "SQL: explicit joins and record aggregation"
+    }
+  },
+  {
+    "date": "2023-05-10T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Richiami sulle sotto-query scalari"
+      },
+      {
+        "all": "Richiami sulle sotto-query lista (o colonna)"
+      },
+      {
+        "all": "Sotto-query riga"
+      },
+      {
+        "all": "Uso del predicato EXISTS con sotto-query generiche "
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Sotto-query correlate e scorrelate: considerazioni di efficienza"
+      },
+      {
+        "all": "Soluzioni alternative alle sotto-query: usare i join in maniera creativa",
+        "type": "esempio"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Combinazione di query tramite operatori insiemistici: UNION, INTERSECT, MINUS"
+      },
+      {
+        "all": "Adattare e fondere tabelle: il caso particolare dell'operatore UNION"
+      },
+      {
+        "all": "Esercitazione finale sulle query: interrogazioni sul campionato di calcio",
+        "type": "esempio"
+      },
+      {
+        "all": "Le viste"
+      },
+      {
+        "all": "Creazione di viste: CREATE VIEW"
+      },
+      {
+        "all": "Uso delle viste nelle query (per modularizzare e semplificare)"
+      }
+    ],
+    "title": {
+      "en": "SQL queries - examples",
+      "it": "Esercitazione sulle query"
     }
   }
 ]
