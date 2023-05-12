@@ -1440,5 +1440,150 @@
       "en": "SQL queries - examples",
       "it": "Esercitazione sulle query"
     }
+  },
+  {
+    "date": "2023-05-12T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Uso delle viste per limitare l'accesso ai dati"
+      },
+      {
+        "all": "Usare l'istruzione CREATE TABLE AS per la creazione di snapshot sui dati"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Le Stored Procedures e Functions"
+      },
+      {
+        "all": "Le Stored Procedures e Functions in MySQL"
+      },
+      {
+        "all": "Il terminatore di istruzioni nelle procedure"
+      },
+      {
+        "all": "Creazione di una procedura: CREATE PROCEDURE"
+      },
+      {
+        "all": "Codice per le procedure: blocchi BEGIN...END"
+      },
+      {
+        "all": "Codice per le procedure: blocchi e label"
+      },
+      {
+        "all": "Uso di statement SQL nelle procedure"
+      },
+      {
+        "all": "Vari usi del costrutto SELECT in una procedura: per query scalari, colonna, riga e generiche"
+      },
+      {
+        "all": "Invocazione di procedure: CALL"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Procedure come query parametriche",
+        "type": "esempio"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Parametri di input nelle procedure"
+      },
+	  {
+        "all": "Creazione di tabelle temporanee (nelle procedure)"
+      },
+      {
+        "all": "Costrutti di flusso per le procedure: IF...THEN...ELSE"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Parametri di output nelle procedure"
+      },
+      {
+        "all": "Invocare una procedura con parametri OUT e impostarne correttamente il valore"
+      },
+      {
+        "all": "Impostare il valore di una variabile con SET"
+      },
+      {
+        "all": "Creare variabili globali (di sessione) nell'interprete SQL: la sintassi @variabile"
+      },
+      {
+        "all": "La clausola INTO del costrutto SELECT"
+      },
+      {
+        "all": "Dichiarare variabili locali in una procedura con DECLARE"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Creazione di una funzione: CREATE FUNCTION"
+      },
+      {
+        "all": "Parametri e tipo di ritorno (RETURNS) nelle funzioni"
+      },
+      {
+        "all": "Restituire un valore da una funzione con RETURN"
+      },
+      {
+        "all": "Uso di funzioni user-defined nelle query"
+      },
+      {
+        "all": "Le funzioni estendono il linguaggio SQL",
+        "type": "esempio"
+      },
+      {
+        "all": "Creare procedure e funzioni complesse per incorporare la logica di accesso al database",
+        "type": "esempio"
+      },
+      {
+        "all": "La funzione last_insert_id()"
+      },
+      {
+        "all": "La funzione found_rows()"
+      },
+      {
+        "all": "Cenni sulle conditions in SQL"
+      },
+      {
+        "all": "Cenni sugli stati SQL (SQLSTATE)"
+      },
+      {
+        "all": "Segnalare una condizione anomala in una procedura: SIGNAL"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Costrutti di flusso per le procedure: IF...THEN...ELSE, CASE...WHEN, WHILE, LOOP, REPEAT...UNTIL"
+      },
+      {
+        "all": "Le istruzioni LEAVE e ITERATE"
+      }
+    ],
+    "title": {
+      "it": "SQL avanzato: procedure e funzioni",
+      "en": "Advanced SQL: procedures and functions"
+    }
   }
 ]
