@@ -1506,7 +1506,7 @@
       {
         "all": "Parametri di input nelle procedure"
       },
-	  {
+      {
         "all": "Creazione di tabelle temporanee (nelle procedure)"
       },
       {
@@ -1584,6 +1584,103 @@
     "title": {
       "it": "SQL avanzato: procedure e funzioni",
       "en": "Advanced SQL: procedures and functions"
+    }
+  },
+  {
+    "date": "2023-05-17T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Le conditions SQL e gli handler"
+      },
+      {
+        "all": "Dichiarazione di handler: DECLARE HANDLER"
+      },
+      {
+        "all": "Similitudini e differenze tra gli handler SQL e i blocchi try di JAVA"
+      },
+      {
+        "all": "EXIT e CONTINUE handlers"
+      },
+      {
+        "all": "Muoversi tra i record restituiti da una query: i cursori"
+      },
+      {
+        "all": "Gestione del ciclo di vita di un cursore: DACLARE CURSOR, OPEN, FETCH, CLOSE"
+      },
+      {
+        "all": "Gestire la condizione di fine record (NOT FOUND) con un handler"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Gestire una condizione anomala e risegnalarla: RESIGNAL"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "I Trigger"
+      },
+      {
+        "all": "Creazione di un trigger: CREATE TRIGGER"
+      },
+      {
+        "all": "Eventi gestibili da un trigger: INSERT, UPDATE, DELETE"
+      },
+      {
+        "all": "Tempo di esecuzione dei trigger: AFTER e BEFORE"
+      },
+      {
+        "all": "Trigger multipli e ordine di esecuzione (FOLLOWS e PRECEDES)"
+      },
+      {
+        "all": "Usi comuni dei trigger: controllo, completamento, calcolo"
+      },
+      {
+        "all": "I record NEW e OLD nel codice dei trigger (in base all'evento gestito)"
+      },
+      {
+        "all": "Esempi di trigger di controllo e calcolo per il database dei campionati",
+        "type": "esempio"
+      },
+      {
+        "all": "Le Transazioni"
+      },
+      {
+        "all": "Gestire le transazioni: START TRANSACTION, COMMIT, ROLLBACK"
+      },
+      {
+        "all": "Autocommit delle transazioni"
+      },
+      {
+        "all": "Gestione delle transazioni in MySQL",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.0/en/commit.html"
+          }
+        ]
+      },
+      {
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "it": "SQL avanzato: cursori, trigger e transazioni",
+      "en": "Advanced SQL: cursors, triggers and transactions"
     }
   }
 ]
