@@ -38,7 +38,7 @@
         "all": "SQL e NoSQL sono veramente mondi isolati?"
       },
       {
-        "all": "I Le estensioni NoSQL dei database relazionali (e viceversa)",
+        "all": "Le estensioni NoSQL dei database relazionali (e viceversa)",
         "type": "esempio"
       },
       {
@@ -191,7 +191,7 @@
         "type": "esempio"
       },
       {
-        "all": "Modellare il concetto di \"storico\"per un'associazione: soluzioni e considerazioni",
+        "all": "Modellare il concetto di \"storico\" per un'associazione: soluzioni e considerazioni",
         "type": "esempio"
       }
     ],
@@ -1681,6 +1681,106 @@
     "title": {
       "it": "SQL avanzato: cursori, trigger e transazioni",
       "en": "Advanced SQL: cursors, triggers and transactions"
+    }
+  },
+  {
+    "date": "2023-05-19T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Java_JDBC_Example_MySQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_Example_MySQL"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Interfacciamento dei DBMS con i linguaggi di programmazione"
+      },
+      {
+        "all": "I cursori"
+      },
+      {
+        "all": "JAVA e i DBMS"
+      },
+      {
+        "all": "Il JDBC",
+        "attachments": [
+          {
+            "link": "https://docs.oracle.com/javase/tutorial/jdbc/basics"
+          }
+        ]
+      },
+      {
+        "all": "Specifica e caricamento di un driver DBMS con il JDBC"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Le connection string JDBC"
+      },
+      {
+        "all": "Connessione a una base di dati con il JDBC tramite il DriverManager"
+      },
+      {
+        "all": "Liberare le risorse JDBC: chiusura corretta degli oggetti"
+      },
+      {
+        "all": "Creare uno Statement JDBC"
+      },
+      {
+        "all": "Interrogare la base di dati con uno Statement JDBC (executeQuery)"
+      },
+      {
+        "all": "Gestione dei risultati di una query tramite i ResultSet JDBC"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Inserire/Aggiornare record tramite una Statement JDBC (executeUpdate)"
+      },
+      {
+        "all": "Query parametriche: i problemi degli statement costruiti con concatenazioni di stringa"
+      },
+      {
+        "all": "La SQL injection"
+      },
+      {
+        "all": "Precompilazione di statement: i PreparedStatement"
+      },
+      {
+        "all": "Definire e impostare i parametri di un PreparedStatement"
+      },
+      {
+        "all": "Eseguire un PreparedStatement"
+      },
+      {
+        "all": "Riutilizzare un PreparedStatement"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Gestire le transazioni in Java: disabilitare l'autocommit"
+      },
+      {
+        "all": "Gestire le transazioni in Java: i metodi commit e rollback della Connection"
+      },
+      {
+        "all": "Un uso alternativo della transazioni: accelerare procedure di modifica massiva in un database",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "it": "Basi di dati e linguaggi di programmazione: Java",
+      "en": "Databases and programming languages: Java"
     }
   }
 ]
