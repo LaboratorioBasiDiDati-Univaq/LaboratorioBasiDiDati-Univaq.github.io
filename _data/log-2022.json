@@ -1782,5 +1782,155 @@
       "it": "Basi di dati e linguaggi di programmazione: Java",
       "en": "Databases and programming languages: Java"
     }
+  },
+  {
+    "date": "2023-05-24T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Specificare le colonne auto-generate da leggere dopo una INSERT"
+      },
+      {
+        "all": "Leggere gli ID auto-generati con al getGeneratedKeys"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Chiamare una stored procedure da Java: i CallableStatement"
+      },
+      {
+        "all": "Predisporre un CallableStatement con parametri IN"
+      },
+      {
+        "all": "Eseguire un CallableStatement"
+      },
+      {
+        "all": "Leggere la tabella generata da una stored procedure"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Registrare dei parametri OUT per un CallableStatement e leggerne il valore dopo l'esecuzione"
+      },
+      {
+        "all": "Eseguire una chiamata a funzione tramite un CallableStatement"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "all": "Riassunto delle modalit\u00e0 d'uso del JDBC (con MySQL)",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_JDBC_Example_MySQL",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_Example_MySQL"
+          }
+        ]
+      },
+      {
+        "all": "Incorporare il DBMS SQLite in un'applicazione Java",
+        "attachments": [
+          {
+            "link": "https://github.com/xerial/sqlite-jdbc"
+          }
+        ]
+      },
+      {
+        "all": "Differenze principali tra il dialetto SQL di SQLite e quello di MySQL",
+        "attachments": [
+          {
+            "link": "https://www.sqlite.org"
+          }
+        ]
+      },
+      {
+        "all": "Riassunto delle modalit\u00e0 d'uso del JDBC (con SQLite)",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_JDBC_Example_SQLite",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_Example_SQLite"
+          }
+        ]
+      },
+      {
+        "all": "PHP e i DBMS"
+      },
+      {
+        "all": "Connessione a una base di dati in PHP",
+        "attachments": [
+          {
+            "link": "https://www.php.net/manual/en/book.mysqli.php"
+          },
+          {
+            "link": "https://www.php.net/manual/en/book.pdo.php"
+          }
+        ]
+      },
+      {
+        "all": "Interrogare una base di dati in PHP"
+      },
+      {
+        "all": "Gestione dei risultati di una query in PHP"
+      },
+      {
+        "all": "Performance nell'accesso ai dati per applicazioni concorrenti: il problema delle connessioni"
+      },
+      {
+        "all": "Riutilizzare le connessioni JDBC: il connection pooling"
+      },
+      {
+        "all": "Realizzare il connection pooling con il JDBC e la libreria Apache Commons DBCP2",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://commons.apache.org/proper/commons-dbcp"
+          },
+          {
+            "name": "Java_JDBC_CP_Example_MySQL",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_CP_Example_MySQL"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "all": "Uso di un database abstraction layer in PHP per ottenere un'astrazione simile o superiore a quella del JDBC"
+      },
+      {
+        "show": false,
+        "all": "Astrarre la logica del codice degli aspetti legati al DBMS: prime idee"
+      },
+      {
+        "show": false,
+        "all": "Cenni su argomenti avanzati: l'Object-Relational Mapping"
+      }
+    ],
+    "title": {
+      "it": "Basi di dati e linguaggi di programmazione: argomenti avanzati",
+      "en": "Databases and programming languages: advanced topics"
+    }
+  },
+  {
+    "show": false,
+    "date": "2023-05-26T09:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "all": "Chiarimenti relativi ai progetti d'esame e discussione con i singoli gruppi"
+      }
+    ],
+    "title": {
+      "en": "Discussion on final projects",
+      "it": "Revisione progetti"
+    }
   }
 ]
