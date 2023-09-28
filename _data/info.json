@@ -43,7 +43,7 @@
       "titolo": "Basi di dati - Modelli e linguaggi di interrogazione",
       "editore": "McGraw-Hill",
       "commento": {
-        "en": "The latest edition of the main course textbook is currently available only in Italian. Below is a list of other textbooks that can be useful form English-only-speaking students"
+        "en": "The latest edition of the main course textbook is currently available only in Italian. Below is a list of other textbooks that can be useful for English-only-speaking students. See also the following document (available in the course slides repository): https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides/blob/main/Foreign_students.md."
       },
       "lingua": "en"
     },
@@ -53,7 +53,7 @@
       "titolo": "Database Systems - Concepts, Languages and Architectures",
       "editore": "McGraw-Hill",
       "commento": {
-        "en": "This book, published by McGraw Hill, is out of print; authors decided to make it available in PDF format at no cost: you can download it at the address http://dbbook.dia.uniroma3.it. Slides and exercises can be found on the same book website"
+        "en": "This book, published by McGraw Hill, is out of print; authors decided to make it available in PDF format at no cost: you can download it at the address http://dbbook.dia.uniroma3.it. Slides and exercises can be found on the same book website. For reading indications, see the following document (available in the course slides repository): https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides/blob/main/Foreign_students.md."
       }
     },
     {
@@ -62,7 +62,7 @@
       "titolo": "Database Systems: The Complete Book",
       "editore": "McGraw-Hill",
       "commento": {
-        "en": "See http://infolab.stanford.edu/~ullman/dscb.html. The book is also available in PDF format. Slides based on the book can be found on the book website"
+        "en": "See http://infolab.stanford.edu/~ullman/dscb.html. The book is also available in PDF format. Slides based on the book can be found on the book website. For reading indications, see the following document (available in the course slides repository): https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides/blob/main/Foreign_students.md."
       }
     }
   ],
