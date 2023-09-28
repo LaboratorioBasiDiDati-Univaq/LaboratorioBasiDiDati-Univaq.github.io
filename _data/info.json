@@ -42,7 +42,9 @@
       "autori": "Atzeni, Ceri, Fraternali, Paraboschi, Torlone",
       "titolo": "Basi di dati - Modelli e linguaggi di interrogazione",
       "editore": "McGraw-Hill",
-      "commento": "The latest edition of the main course textbook is currently available only in Italian. Below is a list of other textbooks that can be useful form English-only-speaking students",
+      "commento": {
+        "en": "The latest edition of the main course textbook is currently available only in Italian. Below is a list of other textbooks that can be useful form English-only-speaking students"
+      },
       "lingua": "en"
     },
     {
@@ -50,14 +52,18 @@
       "autori": "Atzeni, Ceri, Paraboschi, Torlone",
       "titolo": "Database Systems - Concepts, Languages and Architectures",
       "editore": "McGraw-Hill",
-      "commento": "This book, published by McGraw Hill, is out of print; authors decided to make it available in PDF format at no cost: you can download it at the address http://dbbook.dia.uniroma3.it. Slides and exercises can be found on the same book website"
+      "commento": {
+        "en": "This book, published by McGraw Hill, is out of print; authors decided to make it available in PDF format at no cost: you can download it at the address http://dbbook.dia.uniroma3.it. Slides and exercises can be found on the same book website"
+      }
     },
     {
       "lingua": "en",
       "autori": "Garcia-Molina, Ullman,  Widom",
       "titolo": "Database Systems: The Complete Book",
       "editore": "McGraw-Hill",
-      "commento": "See http://infolab.stanford.edu/~ullman/dscb.html. The book is also available in PDF format. Slides based on the book can be found on the book website"
+      "commento": {
+        "en": "See http://infolab.stanford.edu/~ullman/dscb.html. The book is also available in PDF format. Slides based on the book can be found on the book website"
+      }
     }
   ],
   "sillabo": [
