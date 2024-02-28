@@ -1,0 +1,69 @@
+[
+  {
+    "date": "2024-02-28T08:30:00",
+    "duration": 3,
+    "arguments": [
+      {
+        "all": "Presentazione del corso"
+      },
+      {
+        "all": "Perch\u00e9 le basi di dati sono importanti?"
+      },
+      {
+        "all": "Esempio Gestire i dati: dai metodi fatti in casa ai server DBMS",
+        "type": "esempio"
+      },
+      {
+        "all": "Per gestire la persistenza dei dati dobbiamo usare per forza un DBMS?"
+      },
+      {
+        "all": "I I DBMS serverless come SQLite",
+        "type": "esempio"
+      },
+      {
+        "all": "Perch\u00e9 usiamo (ancora) il modello relazionale?"
+      },
+      {
+        "all": "E le basi di dati NoSQL?"
+      },
+      {
+        "all": "L'affermazione delle basi di dati document-oriented come MongoDB",
+        "type": "esempio"
+      },
+      {
+        "all": "I L'affermazione delle basi di dati a grafo nelle applicazioni di data analytics",
+        "type": "esempio"
+      },
+      {
+        "all": "SQL e NoSQL sono veramente mondi isolati?"
+      },
+      {
+        "all": "Le estensioni NoSQL dei database relazionali (e viceversa)",
+        "type": "esempio"
+      },
+      {
+        "all": "Gli errori pi\u00f9 comuni nelle basi di dati e le loro (catastrofiche) conseguenze"
+      },
+      {
+        "all": "Il processo di realizzazione di una base di dati"
+      },
+      {
+        "all": "Le fasi della progettazione: concettuale, logica, fisica"
+      },
+      {
+        "all": "Gli strumenti per ciascuna fase di progettazione"
+      },
+      {
+        "all": "Analisi delle specifiche"
+      },
+      {
+        "all": "L'Universit\u00e0: analisi dei requisiti",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "Introduction",
+      "it": "Introduzione al corso"
+    }
+  }
+]
