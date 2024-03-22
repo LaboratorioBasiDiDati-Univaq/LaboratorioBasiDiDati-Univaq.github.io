@@ -419,7 +419,11 @@
         "all": "Introduzione di relazioni: metodo, vincoli, vantaggi, svantaggi"
       },
       {
-        "all": "Le (possibile) introduzione di relazioni nell'esempio rivista",
+        "all": "La (possibile, ma non ottimale) introduzione di relazioni nell'esempio rivista per la struttura contenuto/articolo/figura",
+        "type": "esempio"
+      },
+      {
+        "all": "L'introduzione di relazioni nell'esempio rivista per la struttura autore/dipendente/freelance",
         "type": "esempio"
       },
       {
@@ -431,6 +435,10 @@
             "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
           }
         ]
+      },
+      {
+        "all": "Le fusione figli-padre nell'esempio supermarket per la struttura prodotto/base/composto",
+        "type": "esempio"
       }
     ],
     "title": {
