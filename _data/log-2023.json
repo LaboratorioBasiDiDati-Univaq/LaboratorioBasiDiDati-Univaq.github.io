@@ -309,5 +309,133 @@
       "en": "ER Modelling - final examples",
       "it": "Esercitazione finale sui diagrammi ER"
     }
+  },
+  {
+    "date": "2024-03-20T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "ER-Relazionale",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "La rivista: quando una generalizzazione esprime molti pi\u00f9 vincoli di una (o due) relazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "La rivista: vari modi di modellare il sotto-diagramma uscita/pagina/riquadro/contenuto/articolo/figura",
+        "type": "esempio"
+      },
+      {
+        "all": "La rivista: diagramma ER finale",
+        "type": "esempio",
+        "ref": "ER_Examples - Rivista",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+      },
+      {
+        "all": "Ristrutturazione dei diagrammi ER"
+      },
+      {
+        "all": "Parametri di ottimizzazione: determinare lo schema di accesso ai dati dalle funzionalit\u00e0 previste"
+      },
+      {
+        "all": "Cosa significa \"cancellare\" in una base di dati, quando le entit\u00e0 sono relazionate tra loro?"
+      },
+      {
+        "all": "Ristrutturazione: Eliminazione attributi composti"
+      },
+      {
+        "all": "Ristrutturazione: Eliminazione attributi con cardinalit\u00e0"
+      },
+      {
+        "all": "Vari modi per ottimizzare l'eliminazione di un attributo con cardinalit\u00e0",
+        "type": "esempio"
+      },
+      {
+        "all": "Ristrutturazione: Attributi derivabili"
+      },
+      {
+        "all": "Criteri per l'introduzione o l'eliminazione di un attributo derivabile"
+      },
+      {
+        "all": "Ottimizzare le strutture ER con la ristrutturazione"
+      },
+      {
+        "all": "Ristrutturazione: fusioni e decomposizioni"
+      },
+      {
+        "all": "Decomposizione di entit\u00e0"
+      },
+      {
+        "all": "L'universit\u00e0: decomposizione dell'entit\u00e0 insegnamento",
+        "type": "esempio"
+      },
+      {
+        "all": "L'universit\u00e0: l'attributo sillabo... quando \u00e8 meglio non decomporre troppo ed essere un po' NoSQL",
+        "type": "esempio"
+      },
+      {
+        "all": "Decomposizione di relazioni"
+      },
+      {
+        "all": "L'azienda: decomposizione della relazione lavora per lo storico degli impieghi",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "ER Optimization and Reorganization 1",
+      "it": "Ristrutturazione e Ottimizzazione dei diagrammi ER 1"
+    }
+  },
+  {
+    "date": "2024-03-22T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "ER-Relazionale",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Ristrutturazione: Eliminazione delle gerarchie"
+      },
+      {
+        "all": "Criteri e metodi per l'eliminazione di una gerarchia"
+      },
+      {
+        "all": "Fusione padre-figli: metodo, vincoli, vantaggi, svantaggi"
+      },
+      {
+        "all": "Le fusione padre-figli nell'esempio CdL",
+        "type": "esempio"
+      },
+      {
+        "all": "Fusione figli-padre: metodo, vincoli, vantaggi, svantaggi"
+      },
+      {
+        "all": "Introduzione di relazioni: metodo, vincoli, vantaggi, svantaggi"
+      },
+      {
+        "all": "Le (possibile) introduzione di relazioni nell'esempio rivista",
+        "type": "esempio"
+      },
+      {
+        "all": "Il supermarket: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Supermarket - Ristrutturato",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "ER Optimization and Reorganization 2",
+      "it": "Ristrutturazione e Ottimizzazione dei diagrammi ER 2"
+    }
   }
 ]
