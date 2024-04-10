@@ -39,39 +39,33 @@ all'indirizzo <https://github.com/jgraph/drawio-desktop/releases>.
 
 ### Installazione per Windows
 
-- Scaricate l'installer (pacchetto msi) da <https://dev.mysql.com/downloads/installer/> ed eseguitelo.
+E' possibile installare il server e il workbench separatamente scaricando i pacchetti rispettivamente da <https://dev.mysql.com/downloads/mysql/>
+e <https://dev.mysql.com/downloads/workbench/>.
 
-- Selezionate "***Custom***" come tipo di setup (per minimizzare il software da installare in base alle nostre esigenze).
+- Scaricate l'installer (pacchetto msi) del server <https://dev.mysql.com/downloads/mysql/> ed eseguitelo.
 
-- Selezionate solo i seguenti componenti: **MySQL Servers -\> MySQLServer 8** , **Applications -\> MySQL Workbench -\> MySQL Workbench 8** e **MySQL Notifier** (se disponibile).
+> MySQL necessita del Visual C++ 2019 Redistributable per essere eseguito. Se l'installer si interrompe segnalando che non è presente nel vostro sistema, scaricatelo da <https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist> (scegliendo quello per la vostra architettura, tipicamente x64) e installatelo, quindi riavviate l'installer di MySQL
 
-- Se viene evidenziato qualche **requisito** nella pagina successiva, cliccate su *execute* (non next) e lasciate che l'installer scarichi i runtime necessari a MySQL, eventualmente accettandone l'installazione sui relativi installer che verranno avviati.
+- Selezionate "***Custom***" come tipo di setup (per minimizzare il software da installare in base alle nostre esigenze) e, nella schermata successiva, deselezionate *Development components*. Cliccate quindi su *install*. 
 
-- Quando tutti i requisiti avranno la spunta verde, cliccate su *next*.
+- Al termine dell'istallazione, vi verrà chiesto se volete eseguire il ***MySQL Configurator***: rispondete di sì e procedete come segue nel wizard del configuratore.
 
-- Nella schermata di riepilogo delle componenti da installare cliccate su *execute.*
+- Lasciate inalterata la *data directory* e cliccate su *next*.
 
-- Attendete che tutte le tre componenti selezionate siano state installate (spunte verdi) quindi cliccate su *next*.
-
-- Vi verrà notificato che è necessario ora configurare il server. Cliccate su *next*.
-
-- Accertatevi che sia selezionata la configurazione "***standalone mysql server*** " (default) e procedete cliccando su *next*.
-
-- Accertatevi che come tipo di installazione sia selezionata "***development computer*** " (default) e che la porta del server sia quella standard (3306), quindi cliccate su *next*.
-
-- Accertatevi che il tipo di autenticazione selezionata sia quella "***strong***" (default), quindi cliccate su *next*.
+- Accertatevi che come tipo di installazione sia selezionata "***development computer***" (default) e che la porta del server sia quella standard (3306), quindi cliccate su *next*.
 
 - Scegliete una password per l'utente *root* . Useremo questo utente per gli esperimenti con MySQL, in quanto ha tutti i privilegi e può operare liberamente sul server. Ovviamente vedremo a lezione come creare altri utenti con privilegi meno elevati. Cliccate su *next*.
 
 - Se state operando su Windows, vi verrà chiesto se installare MySQL come **servizio**. Accettate questa opzione ma **deselezionate** "*start at system startup*". In questo modo potrete avviare il server solo quando necessario, risparmiando risorse preziose della vostra macchina (e rendendola anche più sicura). Cliccate su *next*.
 
+- Se vi viene proposto di modificare i permessi di accesso ai file appena installati per aumentare la sicurezza, selezionate *no* e quindi cliccate su *next*.
+
+- Se vi viene proposto di creare dei database di esempio, rifiutate e cliccate su *next*.
+
 - Infine, cliccate su *execute* per applicare la configurazione al server. Se tutto va bene, dopo poco tempo potrete cliccare su *finish* e completare il processo di configurazione. In caso contrario, guardate il log per cercare di capire cos'è andato storto.
 
-- Procedete quindi con *next*, e l'installer vi chiederà se avviare il workbench. Potete farlo adesso o più avanti, in ogni caso al primo accesso al workbench dovrete configurarne la connessione a MySQL come spiegato più avanti.
+- Scaricate l'installer (pacchetto msi) del workbench <https://dev.mysql.com/downloads/workbench/> ed eseguitelo.
 
-- Terminate il processo di installazione.
-
-> Nota: su sistemi Windows, se avete installato il "**MySQL notifier** " (che sta comunque venendo dismesso, quindi potrebbe non essere più disponibile), potrete usarlo per avviare e fermare il relativo servizio (cioè il server MySQL). In alternativa, aprite il *Task manager* (Gestione attività), selezionate la pagina dei *Servizi*, individuate MySQL, cliccateci col tasto destro e selezionate l'operazione da eseguire.
 
 ### Installazione per sistemi Unix
 
@@ -102,3 +96,5 @@ Prima di avviare il workbench, assicuratevi sempre che il server MySQL sia in es
 Il workbench, se installato insieme al server, dovrebbe avere una connessione preconfigurata chiamata "***Local instance MySQL***" (o similari), che vi verrà mostrata nel *welcome screen* dell'applicazione. Se non la trovate, cliccate sul segno "+" a fianco al titolo "**MySQL Connections**", date un nome a piacere alla connessione, inserite **127.0.0.1** come hostname, **3306** come porta e **root** come username (dovrebbero esserci di default), quindi cliccate su "***Test Connection***". Se tutto va bene, potrete poi cliccare su ok per salvare la configurazione.
 
 Cliccate sulla connessione da attivare, inserite la password (se vi state connettendo come *root* , è quella scelta in fase di installazione) e magari cliccate su *save* per non doverla reinserire ogni volta (tanto si tratta di un server di sviluppo locale alla vostra macchina). Se tutto va bene, vedrete aprirsi l'editor SQL connesso al server in esecuzione.
+
+> Se vi viene segnalato un problema di compatibilità tra il server e il workbench, è possibile che abbiate una versione di MySQL troppo vecchia o troppo nuova rispetto a quella del workbench stesso. Potete ignorare questo *warning* in quanto tutti i nostri esempi funzioneranno ugualmente.
