@@ -864,5 +864,73 @@
       "en": "Introduction to SQL",
       "it": "Introduzione a SQL"
     }
+  },
+  {
+    "date": "2024-04-12T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Gestione dell'utenza in un DBMS"
+      },
+      {
+        "all": "MySQL: utenti host-specific e sicurezza"
+      },
+      {
+        "all": "Uso dei comandi CREATE USER e DROP USER",
+        "type": "esempio"
+      },
+      {
+        "all": "Il modo pi\u00f9 comune per interfacciare un'applicazione con un DBMS",
+        "type": "esempio"
+      },
+      {
+        "all": "Creazione di un database"
+      },
+      {
+        "all": "Uso dei comandi CREATE DATABASE e DROP DATABASE",
+        "type": "esempio"
+      },
+      {
+        "all": "Creazione di tabelle"
+      },
+      {
+        "all": "Uso base dei comandi CREATE TABLE e DROP TABLE",
+        "type": "esempio"
+      },
+      {
+        "all": "MySQL: identificatori case sensitive in base alla piattaforma!"
+      },
+      {
+        "all": "La parola chiave DEFAULT sulle colonne"
+      },
+      {
+        "all": "Il create/alter table wizard di MySQL Workbench: alcuni trucchi per sfruttarlo e imparare",
+        "type": "esempio"
+      },
+      {
+        "all": "Gestione dei permessi in un DBMS"
+      },
+      {
+        "all": "Uso dei comandi GRANT e REVOKE",
+        "type": "esempio"
+      },
+      {
+        "all": "Lo user manager di MySQL Workbench: caratteristiche e limiti",
+        "type": "esempio"
+      },
+      {
+        "all": "Presentazione dei progetti di esame"
+      }
+    ],
+    "title": {
+      "en": "SQL: database and table creation",
+      "it": "SQL: creazione di database e tabelle"
+    }
   }
 ]
