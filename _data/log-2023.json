@@ -932,5 +932,138 @@
       "en": "SQL: database and table creation",
       "it": "SQL: creazione di database e tabelle"
     }
+  },
+  {
+    "date": "2024-04-17T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Vincoli su tabelle"
+      },
+      {
+        "all": "Assegnare un nome ai vincoli"
+      },
+      {
+        "all": "Introduzione alle transazioni"
+      },
+      {
+        "all": "Differibilit\u00e0 dei vincoli"
+      },
+      {
+        "all": "Specifica di chiavi: PRIMARY KEY e UNIQUE"
+      },
+      {
+        "all": "Indici creati nel database dai vincoli PRIMARY KEY e UNIQUE"
+      },
+      {
+        "all": "Tecniche speciali per la generazione di chiavi primarie"
+      },
+      {
+        "all": "MySQL: caratteristiche delle colonne auto_increment",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.0/en/example-auto-increment.html"
+          }
+        ]
+      },
+      {
+        "all": "Vincoli NOT NULL sulle colonne"
+      },
+      {
+        "all": "Le combinazioni di DEFAULT e NOT NULL e il loro significato",
+        "type": "esempio"
+      },
+      {
+        "all": "Chiavi esterne e vincoli di integrit\u00e0 referenziale: FOREIGN KEY ... REFERENCES"
+      },
+      {
+        "all": "Relazioni ER, riferimenti relazionali e FOREIGN KEY SQL",
+        "type": "esempio"
+      },
+      {
+        "all": "Vincoli sui dati (e anche sui metadati) indotti dalle FOREIGN KEY"
+      },
+      {
+        "all": "Indici necessari e opzionali per realizzare una FOREIGN KEY"
+      },
+      {
+        "all": "Perch\u00e8 una FOREIGN KEY richiede (in MySQL) due indici?",
+        "type": "esempio"
+      },
+      {
+        "all": "Auto-relazioni e FOREIGN KEY cicliche: come definirle?"
+      },
+      {
+        "all": "Aggiungere una FOREIGN KEY a una tabella (post-creazione) in MySQL",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "SQL: constraints 1",
+      "it": "SQL: i vincoli 1"
+    }
+  },
+  {
+    "date": "2024-04-19T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Vincoli di integrit\u00e0 referenziale: il costrutto MATCH"
+      },
+      {
+        "all": "Chiavi esterne e modifiche ai dati: come preservare l'integrit\u00e0 referenziale?",
+        "type": "esempio"
+      },
+      {
+        "all": "Vincoli di integrit\u00e0 referenziale: azioni ON DELETE e ON UPDATE"
+      },
+      {
+        "all": "Le combinazioni di azioni pi\u00f9 frequenti (e pi\u00f9 sensate) per ON DELETE e ON UPDATE",
+        "type": "esempio"
+      },
+      {
+        "all": "Creazione dei vincoli in SQL: considerazioni sulle azioni ON UPDATE e ON DELETE",
+        "type": "esempio"
+      },
+      {
+        "all": "Vincoli CHECK sulle tabelle"
+      },
+      {
+        "all": "Vincoli CHECK in MySQL 8"
+      },
+      {
+        "all": "Modifica e rimozione di vincoli in MySQL"
+      },
+      {
+        "all": "Cancellare un vincolo UNIQUE usando DROP INDEX in MySQL",
+        "type": "esempio"
+      },
+      {
+        "all": "L'Azienda: implementazione fisica con SQL",
+        "attachments": [
+          {
+            "name": "SQL_Examples - Azienda",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+          }
+        ],
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "SQL: constraints 2",
+      "it": "SQL: i vincoli 2"
+    }
   }
 ]
