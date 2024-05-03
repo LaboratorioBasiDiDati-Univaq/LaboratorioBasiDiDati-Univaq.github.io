@@ -1105,5 +1105,112 @@
       "en": "Final exercises on database design",
       "it": "Esercitazione finale sulla progettazione di un database"
     }
+  },
+  {
+    "date": "2024-05-03T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Inserimento di tuple in una tabella: INSERT INTO ... VALUES"
+      },
+      {
+        "all": "Specificare le colonne nell'inserimento e omettere i valori calcolati o con default"
+      },
+      {
+        "all": "Violazione di vincoli e relativi messaggi di errore di MySQL",
+        "type": "esempio"
+      },
+      {
+        "all": "Visualizzare rapidamente il contenuto di una tabella nel Workbench",
+        "type": "esempio"
+      },
+      {
+        "all": "Inserire rapidamente un record col Workbench",
+        "type": "esempio"
+      },
+      {
+        "all": "Creazione di tabelle calcolate: INSERT INTO ... SELECT"
+      },
+      {
+        "all": "Inserimento di record multipli con MySQL"
+      },
+      {
+        "all": "Modifica dei record di una tabella: UPDATE ... SET ... WHERE"
+      },
+      {
+        "all": "Caratteristiche e limiti delle espressioni di aggiornamento"
+      },
+      {
+        "all": "Aggiornamenti con join in MySQL"
+      },
+      {
+        "all": "Sintassi elementare per le clausole WHERE"
+      },
+      {
+        "all": "Modificare rapidamente un record col Workbench",
+        "type": "esempio"
+      },
+      {
+        "all": "Eliminazione dei record di una tabella DELETE FROM ... WHERE"
+      },
+      {
+        "all": "Svuotare una tabella con una DELETE senza WHERE"
+      },
+      {
+        "all": "Cancellare rapidamente un record col Workbench",
+        "type": "esempio"
+      },
+      {
+        "all": "I tre possibili risultati di una query: tabella, lista e valore"
+      },
+      {
+        "all": "Interrogazioni di base: SELECT ... FROM ... WHERE"
+      },
+      {
+        "all": "La clausola FROM"
+      },
+      {
+        "all": "Alias per i nomi di tabella"
+      },
+      {
+        "all": "Perch\u00e8 usare gli alias di tabella?",
+        "type": "esempio"
+      },
+      {
+        "all": "La clausola WHERE"
+      },
+      {
+        "all": "La clausola SELECT"
+      },
+      {
+        "all": "Colonne calcolate"
+      },
+      {
+        "all": "Alias per i nomi di colonna"
+      },
+      {
+        "all": "Perch\u00e8 usare gli alias di colonna?",
+        "type": "esempio"
+      },
+      {
+        "all": "Eliminazione dei duplicati: DISTINCT"
+      }
+    ],
+    "title": {
+      "it": "SQL: query di base",
+      "en": "SQL: base queries"
+    }
   }
 ]
