@@ -1212,5 +1212,180 @@
       "it": "SQL: query di base",
       "en": "SQL: base queries"
     }
+  },
+  {
+    "date": "2024-05-08T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Usare la funzione MySQL last_insert_id() per estrarre il valore dell'ultima chiave auto_increment generata"
+      },
+      {
+        "all": "Ordinamento dei risultati di una query: la clausola ORDER BY"
+      },
+      {
+        "all": "Ordinamento su colonne calcolate o non estratte dalla query",
+        "type": "esempio"
+      },
+      {
+        "all": "Limitazione dell'output: la clausola (non standard) LIMIT"
+      },
+      {
+        "all": "Paginazione (efficiente) dei risultati con la clausola LIMIT",
+        "type": "esempio"
+      },
+      {
+        "all": "Sotto-query semplici"
+      },
+      {
+        "all": "Sotto-query scalari usate nelle clausole WHERE e SELECT",
+        "type": "esempio"
+      },
+      {
+        "all": "Sotto-query correlate e visibilit\u00e0 degli identificatori"
+      },
+      {
+        "all": "Sotto-query lista usate con l'operatore IN",
+        "type": "esempio"
+      },
+      {
+        "all": "Sotto-query usate con un operatori di confronto",
+        "type": "esempio"
+      },
+      {
+        "all": "Uso dei quantificatori ANY e ALL con query lista"
+      },
+      {
+        "all": "Join tra tabelle"
+      },
+      {
+        "all": "Join impliciti: condizioni di join e clausola WHERE"
+      },
+      {
+        "all": "Condizioni di join semplici e multiple",
+        "type": "esempio"
+      },
+      {
+        "all": "Mescolare condizioni di filtro e di join nella clausola WHERE",
+        "type": "esempio"
+      },
+      {
+        "all": "Join espliciti con l'operatore JOIN"
+      },
+      {
+        "all": "Join interni: l'operatore INNER JOIN e le sue varianti"
+      },
+      {
+        "all": "Spostare le condizioni di WHERE nel JOIN",
+        "type": "esempio"
+      },
+      {
+        "all": "Scrivere JOIN multipli concatenati",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "it": "SQL: sotto-query e join interni",
+      "en": "SQL: subqueries and inner joins"
+    }
+  },
+  {
+    "date": "2024-05-10T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Problemi con i join effettuati con le condizioni WHERE: includere nei risultati record non relazionati"
+      },
+      {
+        "all": "Join esterni: l'operatore OUTER JOIN e le sue varianti"
+      },
+      {
+        "all": "Scrivere JOIN tra sotto-JOIN (con parentesi di raggruppamento)",
+        "type": "esempio"
+      },
+      {
+        "all": "Aggregazione di record"
+      },
+      {
+        "all": "Gli operatori aggregati: COUNT, SUM, AVG, MIN, MAX"
+      },
+      {
+        "all": "Modificatori ALL e DISTINCT per gli operatori aggregati"
+      },
+      {
+        "all": "Le molte modalit\u00e0 dell'operatore COUNT: COUNT(*), COUNT(e), COUNT(DISTINCT e)",
+        "type": "esempio"
+      },
+      {
+        "all": "Trattamento dei valori NULL con gli operatori aggregati"
+      },
+      {
+        "all": "Limitazioni della clausola SELECT con gli operatori aggregati"
+      },
+      {
+        "all": "Il partizionamento: quando l'aggregazione globale non \u00e8 sufficiente",
+        "type": "esempio"
+      },
+      {
+        "all": "Partizionamento di record: la clausola GROUP BY"
+      },
+      {
+        "all": "Uso degli operatori aggregati con la clausola GROUP BY"
+      },
+      {
+        "all": "Limitazioni della clausola SELECT in presenza della clausola GROUP BY"
+      },
+      {
+        "all": "Raggruppamento su pi\u00f9 colonne"
+      },
+      {
+        "all": "Ordinamento dei risultati nelle query con raggruppamento",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "all": "Usare una colonna aggregata come criterio di ordinamento",
+        "type": "esempio"
+      },
+      {
+        "all": "Usare espressioni complesse come criterio di join",
+        "type": "esempio"
+      },
+      {
+        "all": "Condizioni sui gruppi di record: la clausola HAVING"
+      },
+      {
+        "all": "Perch\u00e8 c'\u00e8 bisogno di una clausola nuova per delle condizioni di filtro? La differenza tra WHERE e HAVING",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "it": "SQL: join esterni e aggregazione di record",
+      "en": "SQL: outer joins and record aggregation"
+    }
   }
 ]
