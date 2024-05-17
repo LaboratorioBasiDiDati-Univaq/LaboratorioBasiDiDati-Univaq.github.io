@@ -1387,5 +1387,184 @@
       "it": "SQL: join esterni e aggregazione di record",
       "en": "SQL: outer joins and record aggregation"
     }
+  },
+  {
+    "date": "2024-05-15T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Richiami sulle sotto-query scalari"
+      },
+      {
+        "all": "Richiami sulle sotto-query lista (o colonna)"
+      },
+      {
+        "all": "Sotto-query riga"
+      },
+      {
+        "all": "Uso del predicato EXISTS con sotto-query generiche"
+      },
+      {
+        "all": "Esercitazione finale sulle query: interrogazioni sul campionato di calcio",
+        "type": "esempio"
+      },
+      {
+        "all": "Creare query complesse usando raggruppamenti e sotto-query",
+        "type": "esempio"
+      },
+      {
+        "all": "Combinazione di query tramite operatori insiemistici: UNION, INTERSECT, MINUS"
+      },
+      {
+        "all": "Realizzare una query differenza senza l'operatore MINUS: un uso particolare di NOT EXISTS",
+        "type": "esempio"
+      },
+      {
+        "all": "Adattare e fondere tabelle: il caso particolare dell'operatore UNION"
+      },
+      {
+        "all": "Sotto-query correlate e scorrelate: considerazioni di efficienza",
+        "type": "esempio"
+      },
+      {
+        "all": "Soluzioni alternative alle sotto-query: usare i join in maniera creativa",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "SQL queries - advanced examples",
+      "it": "Esercitazione sulle query"
+    }
+  },
+  {
+    "date": "2024-05-17T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Le viste"
+      },
+      {
+        "all": "Creazione di viste: CREATE VIEW"
+      },
+      {
+        "all": "Uso delle viste nelle query (per modularizzare e semplificare)",
+        "type": "esempio"
+      },
+      {
+        "all": "Uso delle viste per limitare l'accesso ai dati",
+        "type": "esempio"
+      },
+      {
+        "all": "Usare l'istruzione CREATE TABLE AS per la creazione di snapshot sui dati",
+        "type": "esempio"
+      },
+      {
+        "all": "Le Stored Procedures e Functions"
+      },
+      {
+        "all": "Le Stored Procedures e Functions in MySQL"
+      },
+      {
+        "all": "Il terminatore di istruzioni nelle procedure"
+      },
+      {
+        "all": "Creazione di una procedura: CREATE PROCEDURE"
+      },
+      {
+        "all": "Codice per le procedure: blocchi BEGIN...END"
+      },
+      {
+        "all": "Codice per le procedure: blocchi e label"
+      },
+      {
+        "all": "Uso di statement SQL nelle procedure"
+      },
+      {
+        "all": "Vari usi del costrutto SELECT in una procedura: per query scalari, colonna, riga e generiche",
+        "type": "esempio"
+      },
+      {
+        "all": "Invocazione di procedure: CALL"
+      },
+      {
+        "all": "Procedure come query parametriche",
+        "type": "esempio"
+      },
+      {
+        "all": "Parametri di input nelle procedure"
+      },
+      {
+        "all": "Creazione di tabelle temporanee (nelle procedure)",
+        "type": "esempio"
+      },
+      {
+        "all": "Costrutti di flusso per le procedure: IF...THEN...ELSE"
+      },
+      {
+        "all": "Parametri di output nelle procedure"
+      },
+      {
+        "all": "Invocare una procedura con parametri OUT e impostarne correttamente il valore",
+        "type": "esempio"
+      },
+      {
+        "all": "Impostare il valore di una variabile con SET"
+      },
+      {
+        "all": "Creare variabili globali (di sessione) nell'interprete SQL: la sintassi @variabile",
+        "type": "esempio"
+      },
+      {
+        "all": "La clausola INTO del costrutto SELECT"
+      },
+      {
+        "all": "Dichiarare variabili locali in una procedura con DECLARE"
+      },
+      {
+        "all": "Creazione di una funzione: CREATE FUNCTION"
+      },
+      {
+        "all": "Parametri e tipo di ritorno (RETURNS) nelle funzioni"
+      },
+      {
+        "all": "Restituire un valore da una funzione con RETURN"
+      },
+      {
+        "all": "Uso di funzioni user-defined nelle query",
+        "type": "esempio"
+      },
+      {
+        "all": "Creare procedure e funzioni complesse per incorporare la logica di accesso e manipolazione del database",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "it": "SQL avanzato: procedure e funzioni",
+      "en": "Advanced SQL: procedures and functions"
+    }
   }
 ]
