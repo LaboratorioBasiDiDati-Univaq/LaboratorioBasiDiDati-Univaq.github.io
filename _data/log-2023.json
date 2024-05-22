@@ -1566,5 +1566,107 @@
       "it": "SQL avanzato: procedure e funzioni",
       "en": "Advanced SQL: procedures and functions"
     }
+  },
+  {
+    "date": "2024-05-22T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Costrutti di flusso per le procedure: IF...THEN...ELSE, CASE...WHEN, WHILE, LOOP, REPEAT...UNTIL"
+      },
+      {
+        "all": "Le istruzioni LEAVE e ITERATE"
+      },
+      {
+        "all": "Cenni sulle conditions in SQL"
+      },
+      {
+        "all": "Cenni sugli stati SQL (SQLSTATE)"
+      },
+      {
+        "all": "Segnalare una condizione anomala in una procedura: SIGNAL"
+      },
+      {
+        "show": false,
+        "all": "La funzione last_insert_id()"
+      },
+      {
+        "show": false,
+        "all": "La funzione found_rows()"
+      },
+      {
+        "all": "Creare procedure e funzioni complesse per incorporare la logica di controllo e manipolazione del database, parte 1",
+        "type": "esempio"
+      },
+      {
+        "all": "Le conditions SQL e gli handler"
+      },
+      {
+        "all": "Dichiarazione di handler: DECLARE HANDLER"
+      },
+      {
+        "all": "Similitudini e differenze tra gli handler SQL e i blocchi try di JAVA"
+      },
+      {
+        "all": "EXIT e CONTINUE handlers"
+      },
+      {
+        "all": "Gestire una condizione anomala e risegnalarla: RESIGNAL"
+      },
+      {
+        "all": "Muoversi tra i record restituiti da una query: i cursori"
+      },
+      {
+        "all": "Gestione del ciclo di vita di un cursore: DACLARE CURSOR, OPEN, FETCH, CLOSE"
+      },
+      {
+        "all": "Gestire la condizione di fine record (NOT FOUND) con un handler"
+      },
+      {
+        "all": "Creare procedure e funzioni complesse per incorporare la logica di controllo e manipolazione del database, parte 2",
+        "type": "esempio"
+      },
+      {
+        "all": "I Trigger"
+      },
+      {
+        "all": "Creazione di un trigger: CREATE TRIGGER"
+      },
+      {
+        "all": "Eventi gestibili da un trigger: INSERT, UPDATE, DELETE"
+      },
+      {
+        "all": "Tempo di esecuzione dei trigger: AFTER e BEFORE"
+      },
+      {
+        "all": "Trigger multipli e ordine di esecuzione (FOLLOWS e PRECEDES)"
+      },
+      {
+        "all": "Usi comuni dei trigger: controllo, completamento, calcolo"
+      },
+      {
+        "all": "I record NEW e OLD nel codice dei trigger (in base all'evento gestito)"
+      },
+      {
+        "all": "Esempi di trigger di controllo e calcolo per il database dei campionati, parte 1",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "it": "SQL avanzato: cursori e trigger",
+      "en": "Advanced SQL: cursors e triggers"
+    }
   }
 ]
