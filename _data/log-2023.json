@@ -1668,5 +1668,261 @@
       "it": "SQL avanzato: cursori e trigger",
       "en": "Advanced SQL: cursors e triggers"
     }
+  },
+  {
+    "date": "2024-05-29T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Java_JDBC_Example_MySQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_Example_MySQL"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Esempi di trigger di controllo e calcolo per il database dei campionati, parte 2",
+        "type": "esempio"
+      },
+      {
+        "all": "Le Transazioni"
+      },
+      {
+        "all": "Gestire le transazioni: START TRANSACTION, COMMIT, ROLLBACK"
+      },
+      {
+        "all": "Autocommit delle transazioni"
+      },
+      {
+        "all": "Gestione delle transazioni in MySQL",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.0/en/commit.html"
+          }
+        ]
+      },
+      {
+        "all": "Interfacciamento dei DBMS con i linguaggi di programmazione"
+      },
+      {
+        "show": false,
+        "all": "I cursori"
+      },
+      {
+        "all": "JAVA e i DBMS"
+      },
+      {
+        "all": "Il JDBC",
+        "attachments": [
+          {
+            "link": "https://docs.oracle.com/javase/tutorial/jdbc/basics"
+          }
+        ]
+      },
+      {
+        "all": "Specifica e caricamento di un driver DBMS con il JDBC"
+      },
+      {
+        "all": "Le connection string JDBC"
+      },
+      {
+        "all": "Connessione a una base di dati con il JDBC tramite il DriverManager",
+        "type": "esempio"
+      },
+      {
+        "all": "Liberare le risorse JDBC: chiusura corretta degli oggetti",
+        "type": "esempio"
+      },
+      {
+        "all": "Creare uno Statement JDBC",
+        "type": "esempio"
+      },
+      {
+        "all": "Interrogare la base di dati con uno Statement JDBC (executeQuery)",
+        "type": "esempio"
+      },
+      {
+        "all": "Gestione dei risultati di una query tramite i ResultSet JDBC",
+        "type": "esempio"
+      },
+      {
+        "all": "Inserire/Aggiornare record tramite una Statement JDBC (executeUpdate)",
+        "type": "esempio"
+      },
+      {
+        "all": "Query parametriche: i problemi degli statement costruiti con concatenazioni di stringa"
+      },
+      {
+        "all": "La SQL injection"
+      },
+      {
+        "all": "Precompilazione di statement: i PreparedStatement"
+      },
+      {
+        "all": "Definire e impostare i parametri di un PreparedStatement",
+        "type": "esempio"
+      },
+      {
+        "all": "Eseguire un PreparedStatement",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "it": "Basi di dati e linguaggi di programmazione: Java",
+      "en": "Databases and programming languages: Java"
+    }
+  },
+  {
+    "date": "2024-05-31T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Specificare le colonne auto-generate da leggere dopo una INSERT",
+        "type": "esempio"
+      },
+      {
+        "all": "Leggere gli ID auto-generati con al getGeneratedKeys",
+        "type": "esempio"
+      },
+      {
+        "all": "Chiamare una stored procedure da Java: i CallableStatement"
+      },
+      {
+        "all": "Predisporre un CallableStatement con parametri IN",
+        "type": "esempio"
+      },
+      {
+        "all": "Eseguire un CallableStatement",
+        "type": "esempio"
+      },
+      {
+        "all": "Leggere la tabella generata da una stored procedure",
+        "type": "esempio"
+      },
+      {
+        "all": "Registrare dei parametri OUT per un CallableStatement e leggerne il valore dopo l'esecuzione",
+        "type": "esempio"
+      },
+      {
+        "all": "Eseguire una chiamata a funzione tramite un CallableStatement",
+        "type": "esempio"
+      },
+      {
+        "all": "Gestire le transazioni in Java: disabilitare l'autocommit",
+        "type": "esempio"
+      },
+      {
+        "all": "Gestire le transazioni in Java: i metodi commit e rollback della Connection",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "all": "Un uso alternativo della transazioni: accelerare procedure di modifica massiva in un database",
+        "type": "esempio"
+      },
+      {
+        "all": "PHP e i DBMS"
+      },
+      {
+        "all": "Connessione a una base di dati in PHP",
+        "attachments": [
+          {
+            "link": "https://www.php.net/manual/en/book.mysqli.php"
+          },
+          {
+            "link": "https://www.php.net/manual/en/book.pdo.php"
+          }
+        ]
+      },
+      {
+        "all": "Interrogare una base di dati in PHP"
+      },
+      {
+        "all": "Gestione dei risultati di una query in PHP"
+      },
+      {
+        "all": "Riassunto delle modalit\u00e0 d'uso del JDBC (con MySQL)",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_JDBC_Example_MySQL",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_Example_MySQL"
+          }
+        ]
+      },
+      {
+        "all": "Incorporare il DBMS SQLite in un'applicazione Java",
+        "attachments": [
+          {
+            "link": "https://github.com/xerial/sqlite-jdbc"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "all": "Differenze principali tra il dialetto SQL di SQLite e quello di MySQL",
+        "attachments": [
+          {
+            "link": "https://www.sqlite.org"
+          }
+        ]
+      },
+      {
+        "all": "Riassunto delle modalit\u00e0 d'uso del JDBC (con SQLite)",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_JDBC_Example_SQLite",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_Example_SQLite"
+          }
+        ]
+      },
+      {
+        "all": "Performance nell'accesso ai dati per applicazioni concorrenti: il problema delle connessioni"
+      },
+      {
+        "all": "Riutilizzare le connessioni JDBC: il connection pooling"
+      },
+      {
+        "all": "Realizzare il connection pooling con il JDBC e la libreria Apache Commons DBCP2",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://commons.apache.org/proper/commons-dbcp"
+          },
+          {
+            "name": "Java_JDBC_CP_Example_MySQL",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_CP_Example_MySQL"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "all": "Uso di un database abstraction layer in PHP per ottenere un'astrazione simile o superiore a quella del JDBC"
+      },
+      {
+        "show": false,
+        "all": "Astrarre la logica del codice degli aspetti legati al DBMS: prime idee"
+      },
+      {
+        "show": false,
+        "all": "Cenni su argomenti avanzati: l'Object-Relational Mapping"
+      }
+    ],
+    "title": {
+      "it": "Basi di dati e linguaggi di programmazione: argomenti avanzati",
+      "en": "Databases and programming languages: advanced topics"
+    }
   }
 ]
