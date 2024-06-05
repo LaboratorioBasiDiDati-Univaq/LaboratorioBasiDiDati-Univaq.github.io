@@ -1924,5 +1924,18 @@
       "it": "Basi di dati e linguaggi di programmazione: argomenti avanzati",
       "en": "Databases and programming languages: advanced topics"
     }
+  },
+  {
+    "date": "2024-06-05T08:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "all": "Chiarimenti relativi ai progetti d'esame e discussione con i singoli gruppi"
+      }
+    ],
+    "title": {
+      "en": "Discussion on final projects",
+      "it": "Revisione progetti"
+    }
   }
 ]
