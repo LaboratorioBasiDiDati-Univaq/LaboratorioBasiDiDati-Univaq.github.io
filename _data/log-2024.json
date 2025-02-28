@@ -65,5 +65,76 @@
       "en": "Introduction",
       "it": "Introduzione al corso"
     }
+  },
+  {
+    "date": "2025-02-28T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "ER",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "La progettazione concettuale"
+      },
+      {
+        "all": "I diagrammi Entit\u00e0 - Relazione"
+      },
+      {
+        "all": "Entit\u00e0 nei diagrammi ER"
+      },
+      {
+        "all": "L'Universit\u00e0: entit\u00e0",
+        "type": "esempio"
+      },
+      {
+        "all": "Attributi nei diagrammi ER"
+      },
+      {
+        "all": "Attributi ed Entit\u00e0: come non confondere i due concetti",
+        "type": "esempio"
+      },
+      {
+        "all": "L'Universit\u00e0: attributi",
+        "type": "esempio"
+      },
+      {
+        "all": "Attributi composti"
+      },
+      {
+        "all": "Quando \u00e8 utile usare un attributo composto",
+        "type": "esempio"
+      },
+      {
+        "all": "Attributi con molteplicit\u00e0"
+      },
+      {
+        "all": "Identificare univocamente le istanze di un'entit\u00e0"
+      },
+      {
+        "all": "Chiavi nelle entit\u00e0"
+      },
+      {
+        "all": "Scelta della chiave primaria tra le chiavi candidate"
+      },
+      {
+        "all": "L'Universit\u00e0: chiavi",
+        "type": "esempio"
+      },
+      {
+        "all": "Entit\u00e0 (apparentemente) prive di chiave",
+        "type": "esempio"
+      },
+      {
+        "all": "L'Azienda: analisi dei requisiti",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "ER Modelling 1",
+      "it": "Modellazione ER 1"
+    }
   }
 ]
