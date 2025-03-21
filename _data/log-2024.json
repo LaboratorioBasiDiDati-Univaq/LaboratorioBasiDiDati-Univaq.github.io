@@ -372,5 +372,147 @@
       "en": "ER Optimization and Reorganization 1",
       "it": "Ristrutturazione e Ottimizzazione dei diagrammi ER 1"
     }
+  },
+  {
+    "date": "2025-03-19T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "ER-Relazionale",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Ottimizzare le strutture ER con la ristrutturazione"
+      },
+      {
+        "all": "Ristrutturazione: fusioni e decomposizioni"
+      },
+      {
+        "all": "Decomposizione di entit\u00e0"
+      },
+      {
+        "all": "L'universit\u00e0: decomposizione dell'entit\u00e0 insegnamento",
+        "type": "esempio"
+      },
+      {
+        "all": "Decomposizione di relazioni"
+      },
+      {
+        "all": "L'azienda: decomposizione della relazione lavora per lo storico degli impieghi",
+        "type": "esempio"
+      },
+      {
+        "all": "Ristrutturazione: Eliminazione delle gerarchie"
+      },
+      {
+        "all": "Criteri e metodi per l'eliminazione di una gerarchia"
+      },
+      {
+        "all": "Fusione figli-padre: metodo, vincoli, vantaggi, svantaggi"
+      },
+      {
+        "all": "Le fusione figli-padre nell'esempio supermarket per la generalizzazione totale prodotto/base/composto",
+        "type": "esempio"
+      },
+      {
+        "all": "Le fusione figli-padre nell'esempio CdL per la generalizzazione parziale studente/studente trasferito",
+        "type": "esempio"
+      },
+      {
+        "all": "Fusione padre-figli: metodo, vincoli, vantaggi, svantaggi"
+      },
+      {
+        "all": "Le fusione padre-figli nell'esempio CdL per la generalizzazione totale persona/studente/docente",
+        "type": "esempio"
+      },
+      {
+        "all": "Le fusione padre-figli nell'esempio rivista per la generalizzazione totale contenuto/articolo/figura",
+        "type": "esempio"
+      },
+      {
+        "all": "Introduzione di relazioni: metodo, vincoli, vantaggi, svantaggi"
+      },
+      {
+        "all": "La (possibile, ma non ottimale) introduzione di relazioni nell'esempio rivista per la generalizzazione totale contenuto/articolo/figura",
+        "type": "esempio"
+      },
+      {
+        "all": "L'introduzione di relazioni nell'esempio rivista per la generalizzazione totale autore/dipendente/freelance",
+        "type": "esempio"
+      },
+      {
+        "all": "Il supermarket: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Supermarket - Ristrutturato",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "ER Optimization and Reorganization 2",
+      "it": "Ristrutturazione e Ottimizzazione dei diagrammi ER 2"
+    }
+  },
+  {
+    "date": "2025-03-21T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "ER-Relazionale",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Cenni sul modello relazionale"
+      },
+      {
+        "all": "Trasformazione ER - Relazionale: entit\u00e0"
+      },
+      {
+        "all": "Migrazione delle chiavi dal modello ER a quello relazionale"
+      },
+      {
+        "all": "Criteri per la scelta della chiave primaria a livello relazionale (DBMS)"
+      },
+      {
+        "all": "Introduzione di nuove chiavi primarie interne alle tabelle"
+      },
+      {
+        "all": "Trasformazione ER - Relazionale: relazioni"
+      },
+      {
+        "all": "Confronto tra informazione veicolata dalla struttura relazionale e rappresentata nel diagramma ER",
+        "type": "esempio"
+      },
+      {
+        "all": "Chiavi per le tabelle di relazione"
+      },
+      {
+        "all": "Mantenere tutti i vincoli di cardinalit\u00e0 nel DBMS: prime idee"
+      },
+      {
+        "all": "Ottimizzazione delle relazioni"
+      },
+      {
+        "all": "Fusione di tabelle relazionali in base alla cardinalit\u00e0 della relazione rappresentata"
+      },
+      {
+        "all": "Confronto tra informazione veicolata dalla struttura relazionale ottimizzata e rappresentata nel diagramma ER",
+        "type": "esempio"
+      },
+      {
+        "all": "Trasformazione ER - Relazionale: entit\u00e0 deboli"
+      }
+    ],
+    "title": {
+      "en": "Logic Modelling 1",
+      "it": "Progettazione logica 1"
+    }
   }
 ]
