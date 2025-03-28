@@ -604,5 +604,73 @@
       "en": "Conceptual and Logic Modelling - final examples 1",
       "it": "Esercitazione finale sulla progettazione concettuale e logica 1"
     }
+  },
+  {
+    "date": "2025-03-28T09:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "all": "La biblioteca: dalle specifiche al diagramma ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Biblioteca",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "type": "esempio",
+        "all": "Perch\u00e8 \u00e8 necessario modellare il concetto di copia della pubblicazione (invece di tenerne solo un contatore)?"
+      },
+      {
+        "type": "esempio",
+        "all": "Vari modi di modellare il prestito... che collasseranno sulla stessa struttura relazionale"
+      },
+      {
+        "all": "La biblioteca: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Biblioteca",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "type": "esempio",
+        "all": "Eliminare la generalizzazione sulla pubblicazione: ottimizzazione degli attributi"
+      },
+      {
+        "type": "esempio",
+        "all": "Vari modi di trasformare l'attributo multivalore parola_chiave: vantaggi e svantaggi"
+      },
+      {
+        "all": "La biblioteca: dal modello concettuale ristrutturato a quello logico",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Biblioteca",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "type": "esempio",
+        "all": "Vari modi di rendere nel modello relazionale l'attributo (enumerativo) genere: vantaggi, svantaggi... e la soluzione pi\u00f9 \"furba\""
+      },
+      {
+        "all": "Il servizio di streaming: specifiche",
+        "type": "esempio"
+      },
+      {
+        "type": "esempio",
+        "all": "Similitudini e differenze: come riutilizzare strutture concettuali e ottimizzazioni logiche in modelli diversi"
+      }
+    ],
+    "title": {
+      "en": "Conceptual and Logic Modelling - final examples 2",
+      "it": "Esercitazione finale sulla progettazione concettuale e logica 2"
+    }
   }
 ]
