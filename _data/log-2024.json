@@ -514,5 +514,95 @@
       "en": "Logic Modelling 1",
       "it": "Progettazione logica 1"
     }
+  },
+  {
+    "date": "2025-03-26T08:30:00",
+    "duration": 3,
+    "arguments": [
+      {
+        "all": "L'universit\u00e0: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - CdL",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "L'universit\u00e0: dal modello concettuale ristrutturato a quello logico",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - CdL",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "L'azienda: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Azienda",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "L'azienda: dal modello concettuale ristrutturato a quello logico",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Azienda",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "Il supermarket:ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Supermarket",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "Il supermarket: dal modello concettuale ristrutturato a quello logico",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Supermarket",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "La rivista: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Rivista",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "La rivista: dal modello concettuale ristrutturato a quello logico",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Rivista",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "Conceptual and Logic Modelling - final examples 1",
+      "it": "Esercitazione finale sulla progettazione concettuale e logica 1"
+    }
   }
 ]
