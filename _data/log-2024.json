@@ -672,5 +672,245 @@
       "en": "Conceptual and Logic Modelling - final examples 2",
       "it": "Esercitazione finale sulla progettazione concettuale e logica 2"
     }
+  },
+  {
+    "date": "2025-04-02T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Il servizio di streaming: dalle specifiche al diagramma ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Streaming",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "type": "esempio",
+        "all": "Modellare correttamente il ruolo di un partecipante nel servizio streaming"
+      },
+      {
+        "all": "Il servizio di streaming: dal modello concettuale a quello logico",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Streaming",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "Presentazione del DBMS MySQL"
+      },
+      {
+        "all": "Installazione di MySQL server"
+      },
+      {
+        "all": "Installazione e uso di MySQL Workbench"
+      },
+      {
+        "all": "MySQL: scelta dello storage engine",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.3/en/storage-engines.html"
+          }
+        ]
+      },
+      {
+        "all": "Presentazione di SQL"
+      },
+      {
+        "all": "DDL, DML e QL"
+      },
+      {
+        "all": "I tipi di dato built-in di SQL"
+      },
+      {
+        "all": "Tipi di dato SQL: numerici"
+      },
+      {
+        "all": "Tipi di dato SQL: binari"
+      },
+      {
+        "all": "Uso corretto dei tipi binari e corrispondenze con i linguaggi di programmazione",
+        "type": "esempio"
+      },
+      {
+        "all": "Tipi di dato SQL: carattere"
+      },
+      {
+        "all": "Tipi di dato SQL: temporali"
+      },
+      {
+        "all": "Uso corretto dei tipi temporali e corrispondenze con i linguaggi di programmazione",
+        "type": "esempio"
+      },
+      {
+        "all": "Tipi di dato SQL: booleani"
+      },
+      {
+        "all": "La logica a tre valori dell'SQL"
+      },
+      {
+        "all": "Tipi di dato SQL: il valore null"
+      },
+      {
+        "all": "Tipi di dato in MySQL: differenze ed estensioni",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.3/en/data-types.html"
+          }
+        ]
+      },
+      {
+        "all": "Creazione di domini in SQL"
+      },
+      {
+        "all": "La sintassi di base degli statement SQL"
+      },
+      {
+        "all": "La parola chiave DEFAULT nei domini"
+      },
+      {
+        "all": "Vincoli di tipo CHECK nei domini"
+      },
+      {
+        "all": "Modifica e rimozione di domini"
+      },
+      {
+        "all": "Operatori e funzioni comuni dell'SQL"
+      },
+      {
+        "all": "Funzioni scalari SQL"
+      },
+      {
+        "all": "Funzioni scalari in MySQL",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.3/en/numeric-functions.html"
+          }
+        ]
+      },
+      {
+        "all": "Funzioni stringa SQL"
+      },
+      {
+        "all": "Funzioni stringa in MySQL",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.3/en/string-functions.html"
+          }
+        ]
+      },
+      {
+        "all": "I tre delimitatori usati in MySQL: virgolette (\"), apici (') e backtick (`)"
+      },
+      {
+        "all": "Funzioni temporali SQL"
+      },
+      {
+        "all": "Funzioni temporali in MySQL",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.3/en/date-and-time-functions.html"
+          }
+        ]
+      },
+      {
+        "all": "Operatori di confronto (My)SQL",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.3/en/comparison-operators.html"
+          }
+        ]
+      },
+      {
+        "all": "Operatori di confronto SQL: BETWEEN e IN"
+      }
+    ],
+    "title": {
+      "en": "Introduction to SQL",
+      "it": "Introduzione a SQL"
+    }
+  },
+  {
+    "date": "2025-04-04T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Operatori di confronto SQL: LIKE"
+      },
+      {
+        "all": "Operatori di confronto SQL: IS NULL"
+      },
+      {
+        "all": "Gestione dell'utenza in un DBMS"
+      },
+      {
+        "all": "MySQL: utenti host-specific e sicurezza"
+      },
+      {
+        "all": "Uso dei comandi CREATE USER e DROP USER",
+        "type": "esempio"
+      },
+      {
+        "all": "Il modo pi\u00f9 comune per interfacciare un'applicazione con un DBMS",
+        "type": "esempio"
+      },
+      {
+        "all": "Creazione di un database"
+      },
+      {
+        "all": "Uso dei comandi CREATE DATABASE e DROP DATABASE",
+        "type": "esempio"
+      },
+      {
+        "all": "Creazione di tabelle"
+      },
+      {
+        "all": "Uso base dei comandi CREATE TABLE e DROP TABLE",
+        "type": "esempio"
+      },
+      {
+        "all": "MySQL: identificatori case sensitive in base alla piattaforma!"
+      },
+      {
+        "all": "Il create/alter table wizard di MySQL Workbench: alcuni trucchi per sfruttarlo e imparare",
+        "type": "esempio"
+      },
+      {
+        "all": "Gestione dei permessi in un DBMS"
+      },
+      {
+        "all": "Uso dei comandi GRANT e REVOKE",
+        "type": "esempio"
+      },
+      {
+        "all": "Lo user manager di MySQL Workbench: caratteristiche e limiti",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "SQL: database and table creation",
+      "it": "SQL: creazione di database e tabelle"
+    }
   }
 ]
