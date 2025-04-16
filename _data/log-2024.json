@@ -1047,5 +1047,41 @@
       "en": "SQL: constraints 2",
       "it": "SQL: i vincoli 2"
     }
+  },
+  {
+    "date": "2025-04-16T08:30:00",
+    "duration": 3,
+    "arguments": [
+      {
+        "all": "Il Campionato: specifiche",
+        "type": "esempio"
+      },
+      {
+        "all": "Il Campionato: progettazione concettuale",
+        "type": "esempio"
+      },
+      {
+        "all": "Il Campionato: ristrutturazione ER",
+        "type": "esempio"
+      },
+      {
+        "all": "Il Campionato: traduzione nel modello relazionale",
+        "type": "esempio"
+      },
+      {
+        "all": "Il Campionato: implementazione fisica con SQL",
+        "attachments": [
+          {
+            "name": "SQL_Examples - Campionati",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+          }
+        ],
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "Final exercises on database design",
+      "it": "Esercitazione finale sulla progettazione di un database"
+    }
   }
 ]
