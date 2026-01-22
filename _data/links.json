@@ -1,3 +1,47 @@
-[	  
-
+[
+  {
+    "nome": {
+      "all": "MySQL 8.0 Reference Manual"
+    },
+    "commento": {
+      "all": "Il manuale di MySQL, comprensivo di una guida completa al suo dialetto di SQL"
+    },
+    "url": "https://dev.mysql.com/doc/refman/8.0/en/"
+  },
+  {
+    "nome": {
+      "all": "PostgreSQL"
+    },
+    "commento": {
+      "all": "\"The World's Most Advanced Open Source Relational Database\""
+    },
+    "url": "https://www.postgresql.org/"
+  },
+  {
+    "nome": {
+      "all": "SQLite"
+    },
+    "commento": {
+      "all": "\"A C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world\""
+    },
+    "url": "https://sqlite.org/"
+  },
+  {
+    "nome": {
+      "all": "SQLite-JDBC"
+    },
+    "commento": {
+      "all": "\"A library for accessing and creating SQLite database files in Java\""
+    },
+    "url": "https://github.com/xerial/sqlite-jdbc"
+  },
+  {
+    "nome": {
+      "all": "draw.io"
+    },
+    "commento": {
+      "all": "\"A configurable diagramming and whiteboarding application\""
+    },
+    "url": "https://github.com/jgraph/drawio"
+  }
 ]
