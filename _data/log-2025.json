@@ -1,3 +1,185 @@
 [
-  
+  {
+    "date": "2026-02-25T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "DBMS",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Presentazione del corso"
+      },
+      {
+        "all": "Perch\u00e9 le basi di dati sono importanti?"
+      },
+      {
+        "all": "Esempio Gestire i dati: dai metodi fatti in casa ai server DBMS",
+        "type": "esempio"
+      },
+      {
+        "all": "Per gestire la persistenza dei dati dobbiamo usare per forza un DBMS?"
+      },
+      {
+        "all": "La scelta del modello per la memorizzazione dei dati: relazionale puro, relazionale a oggetti, document-oriented, key-value, a grafo,..."
+      },
+      {
+        "all": "Perch\u00e9 usiamo (ancora) il modello relazionale? Punti di forza e di debolezza"
+      },
+      {
+        "all": "Le basi di dati NoSQL document-oriented: punti di forza e di debolezza",
+        "type": "esempio"
+      },
+      {
+        "all": "Le basi di dati NoSQL a grafo nelle applicazioni di data analytics",
+        "type": "esempio"
+      },
+      {
+        "all": "SQL e NoSQL sono veramente mondi isolati?"
+      },
+      {
+        "all": "Le estensioni NoSQL dei database relazionali (e viceversa)",
+        "type": "esempio"
+      },
+      {
+        "all": "La scelta del DBMS relazionale: MySQL, PostgreSQL, SQLite,..."
+      },
+      {
+        "all": "Usi dei DBMS serverless come SQLite",
+        "type": "esempio"
+      },
+      {
+        "all": "Gli errori pi\u00f9 comuni nelle basi di dati e le loro (catastrofiche) conseguenze"
+      },
+      {
+        "all": "Il processo di realizzazione di una base di dati"
+      },
+      {
+        "all": "Le fasi della progettazione: concettuale, logica, fisica"
+      },
+      {
+        "all": "Gli strumenti per ciascuna fase di progettazione"
+      },
+      {
+        "all": "Analisi delle specifiche"
+      },
+      {
+        "all": "L'Universit\u00e0: analisi dei requisiti",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "Introduction",
+      "it": "Introduzione al corso"
+    }
+  },
+  {
+    "date": "2026-02-26T08:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "ER",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "La progettazione concettuale"
+      },
+      {
+        "all": "I diagrammi Entit\u00e0 - Relazione"
+      },
+      {
+        "all": "Entit\u00e0 nei diagrammi ER"
+      },
+      {
+        "all": "L'Universit\u00e0: entit\u00e0",
+        "type": "esempio"
+      },
+      {
+        "all": "Attributi nei diagrammi ER"
+      },
+      {
+        "all": "Attributi ed Entit\u00e0: come non confondere i due concetti",
+        "type": "esempio"
+      },
+      {
+        "all": "L'Universit\u00e0: attributi",
+        "type": "esempio"
+      },
+      {
+        "all": "Documentazione dei diagrammi ER: i tipi di dato"
+      },
+      {
+        "all": "Attributi composti"
+      },
+      {
+        "all": "Quando \u00e8 utile usare un attributo composto",
+        "type": "esempio"
+      },
+      {
+        "all": "Attributi con molteplicit\u00e0"
+      },
+      {
+        "all": "Identificare univocamente le istanze di un'entit\u00e0"
+      },
+      {
+        "all": "Chiavi nelle entit\u00e0"
+      },
+      {
+        "all": "Scelta della chiave primaria tra le chiavi candidate"
+      },
+      {
+        "all": "L'Universit\u00e0: chiavi",
+        "type": "esempio"
+      },
+      {
+        "all": "Entit\u00e0 (apparentemente) prive di chiave",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "ER Modelling 1",
+      "it": "Modellazione ER 1"
+    }
+  },
+  {
+    "date": "2026-02-27T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "ER",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Il supermercato: entit\u00e0, attributi e chiavi",
+        "type": "esempio"
+      },
+      {
+        "all": "Generalizzazione di entit\u00e0"
+      },
+      {
+        "all": "Generalizzazioni totali e parziali"
+      },
+      {
+        "all": "Il supermercato: generalizzazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "Generalizzazioni e chiavi"
+      },
+      {
+        "all": "L'Azienda: analisi dei requisiti",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "ER Modelling 2",
+      "it": "Modellazione ER 2"
+    }
+  }
 ]
