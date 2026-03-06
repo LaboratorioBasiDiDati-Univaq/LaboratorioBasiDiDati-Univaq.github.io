@@ -181,5 +181,173 @@
       "en": "ER Modelling 2",
       "it": "Modellazione ER 2"
     }
+  },
+  {
+    "date": "2026-03-04T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "ER",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "L'Azienda: entit\u00e0, attributi e chiavi",
+        "type": "esempio"
+      },
+      {
+        "all": "Relazioni"
+      },
+      {
+        "all": "Relazioni non binarie"
+      },
+      {
+        "all": "Auto-Relazioni"
+      },
+      {
+        "all": "Ruoli nelle relazioni"
+      },
+      {
+        "all": "L'azienda: relazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "Attributi sulle relazioni"
+      },
+      {
+        "all": "L'azienda: attributi sulle relazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "Modellare il concetto di \"storico\" per un'associazione: soluzioni e considerazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "Il supermercato: relazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "Il supermercato: attributi sulle relazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "Relazioni e generalizzazioni"
+      }
+    ],
+    "title": {
+      "en": "ER Modelling 3",
+      "it": "Modellazione ER 3"
+    }
+  },
+  {
+    "date": "2026-03-05T08:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "ER",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Cardinalit\u00e0 delle relazioni"
+      },
+      {
+        "all": "Il supermercato: relazioni con cardinalit\u00e0",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Supermarket",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "L'azienda: relazioni con cardinalit\u00e0",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Azienda",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "L'Universit\u00e0: relazioni con cardinalit\u00e0",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - CdL",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "L'Auto-Relazione mutuazione tra gli insegnamenti",
+        "type": "esempio"
+      },
+      {
+        "all": "Entit\u00e0 deboli e chiavi con relazioni"
+      },
+      {
+        "all": "Cardinalit\u00e0 ammesse per le relazioni con entit\u00e0 deboli"
+      },
+      {
+        "all": "L'Universit\u00e0: chiavi per le entit\u00e0 deboli",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "ER Modelling 4",
+      "it": "Modellazione ER 4"
+    }
+  },
+  {
+    "date": "2026-03-06T09:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "all": "La rivista",
+        "type": "esempio"
+      },
+      {
+        "all": "La rivista: attributi derivabili"
+      },
+      {
+        "all": "La rivista: considerazioni sullo storage di binari nei DBMS",
+        "type": "esempio"
+      },
+      {
+        "all": "Un altro modo per immagazzinare dati non strutturati (come i binari): cenni sugli object storage",
+        "attachments": [
+          {
+            "link": "https://aws.amazon.com/it/what-is/object-storage/"
+          }
+        ]
+      },
+      {
+        "all": "La rivista: quando una generalizzazione esprime molti pi\u00f9 vincoli di una (o due) relazioni",
+        "type": "esempio"
+      },
+      {
+        "all": "La rivista: vari modi di modellare il dominio degli autori",
+        "type": "esempio"
+      },
+      {
+        "all": "La rivista: vari modi di modellare il sotto-diagramma uscita/pagina/riquadro/contenuto/articolo/figura",
+        "type": "esempio"
+      },
+      {
+        "all": "La rivista: diagramma ER finale",
+        "type": "esempio",
+        "ref": "ER_Examples - Rivista",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+      }
+    ],
+    "title": {
+      "en": "ER Modelling - final examples",
+      "it": "Esercitazione finale sui diagrammi ER"
+    }
   }
 ]
