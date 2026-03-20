@@ -415,5 +415,137 @@
       "en": "ER Optimization and Reorganization 1",
       "it": "Ristrutturazione e Ottimizzazione dei diagrammi ER 1"
     }
+  },
+  {
+    "date": "2026-03-18T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "ER-Relazionale",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Ristrutturazione: Eliminazione delle gerarchie"
+      },
+      {
+        "all": "Criteri e metodi per l'eliminazione di una gerarchia"
+      },
+      {
+        "all": "Fusione figli-padre: metodo, vincoli, vantaggi, svantaggi"
+      },
+      {
+        "all": "Le fusione figli-padre nell'esempio supermarket per la generalizzazione totale prodotto/base/composto",
+        "type": "esempio"
+      },
+      {
+        "all": "Le fusione figli-padre nell'esempio CdL per la generalizzazione parziale studente/studente trasferito",
+        "type": "esempio"
+      },
+      {
+        "all": "Fusione padre-figli: metodo, vincoli, vantaggi, svantaggi"
+      },
+      {
+        "all": "Le fusione padre-figli nell'esempio CdL per la generalizzazione totale persona/studente/docente",
+        "type": "esempio"
+      },
+      {
+        "all": "Le fusione padre-figli nell'esempio rivista per la generalizzazione totale contenuto/articolo/figura",
+        "type": "esempio"
+      },
+      {
+        "all": "Introduzione di relazioni tra padre e figli: metodo, vincoli, vantaggi, svantaggi"
+      },
+      {
+        "all": "La (possibile, ma non ottimale) introduzione di relazioni nell'esempio rivista per la generalizzazione totale contenuto/articolo/figura",
+        "type": "esempio"
+      },
+      {
+        "all": "L'introduzione di relazioni nell'esempio rivista per la generalizzazione totale autore/dipendente/freelance",
+        "type": "esempio"
+      },
+      {
+        "all": "La soluzione mista nell'esempio rivista per l'eliminazione delle due generalizzazioni totali a cascata sorgente/autore/altro e autore/dipendente/freelance",
+        "type": "esempio"
+      },
+      {
+        "all": "Il supermarket: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Supermarket - Ristrutturato",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "L'universit\u00e0: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - CdL",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "L'azienda: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Azienda",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "La rivista: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Rivista",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "ER Optimization and Reorganization 2",
+      "it": "Ristrutturazione e Ottimizzazione dei diagrammi ER 2"
+    }
+  },
+  {
+    "date": "2026-03-20T09:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "all": "La banca: dalle specifiche al diagramma ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Banca",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "La banca: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Banca",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "Cenni sul modello relazionale"
+      }
+    ],
+    "title": {
+      "en": "Conceptual modelling and ER reorganization - final examples",
+      "it": "Esercitazione finale sulla progettazione concettuale e sulla ristrutturazione dei diagrammi ER"
+    }
   }
 ]
