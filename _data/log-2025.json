@@ -654,5 +654,75 @@
       "en": "Logic Modelling - final examples",
       "it": "Esercitazione finale sulla progettaziome logica"
     }
+  },
+  {
+    "date": "2026-04-01T08:30:00",
+    "duration": 3,
+    "arguments": [
+      {
+        "all": "La banca:: dal modello concettuale ristrutturato a quello logico",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Banca",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "all": "La biblioteca: dalle specifiche al diagramma ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Biblioteca",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "type": "esempio",
+        "all": "Perch\u00e8 \u00e8 necessario modellare il concetto di copia della pubblicazione (invece di tenerne solo un contatore)?"
+      },
+      {
+        "type": "esempio",
+        "all": "Vari modi di modellare il prestito... che collasseranno sulla stessa struttura relazionale"
+      },
+      {
+        "all": "La biblioteca: ottimizzazione e ristrutturazione del modello ER",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Biblioteca",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "type": "esempio",
+        "all": "Eliminare la generalizzazione sulla pubblicazione: ottimizzazione degli attributi"
+      },
+      {
+        "type": "esempio",
+        "all": "Vari modi di trasformare l'attributo multivalore parola_chiave: vantaggi e svantaggi"
+      },
+      {
+        "all": "La biblioteca: dal modello concettuale ristrutturato a quello logico",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "ER_Examples - Biblioteca",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/ER_Examples"
+          }
+        ]
+      },
+      {
+        "type": "esempio",
+        "all": "Vari modi di rendere nel modello relazionale l'attributo (enumerativo) genere: vantaggi, svantaggi... e la soluzione pi\u00f9 \"furba\""
+      }
+    ],
+    "title": {
+      "en": "Conceptual and Logic Modelling - final examples",
+      "it": "Esercitazione finale sulla progettazione concettuale e logica"
+    }
   }
 ]
