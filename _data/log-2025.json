@@ -1189,5 +1189,160 @@
       "it": "SQL: Inserimento, modifica, cancellazione di dati",
       "en": "SQL: Data insertion, modification, deletion"
     }
+  },
+  {
+    "date": "2026-04-29T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "I tre possibili risultati di una query: tabella, lista e valore"
+      },
+      {
+        "all": "Interrogazioni di base: SELECT ... FROM ... WHERE"
+      },
+      {
+        "all": "La clausola FROM"
+      },
+      {
+        "all": "Alias per i nomi di tabella"
+      },
+      {
+        "all": "Perch\u00e8 usare gli alias di tabella?",
+        "type": "esempio"
+      },
+      {
+        "all": "La clausola WHERE"
+      },
+      {
+        "all": "La clausola SELECT"
+      },
+      {
+        "all": "Colonne calcolate"
+      },
+      {
+        "all": "Alias per i nomi di colonna"
+      },
+      {
+        "all": "Perch\u00e8 usare gli alias di colonna?",
+        "type": "esempio"
+      },
+      {
+        "all": "Eliminazione dei duplicati: DISTINCT"
+      },
+      {
+        "all": "Ordinamento dei risultati di una query: la clausola ORDER BY"
+      },
+      {
+        "all": "Ordinamento su colonne calcolate o non estratte dalla query",
+        "type": "esempio"
+      },
+      {
+        "all": "Limitazione dell'output: la clausola (non standard) LIMIT"
+      },
+      {
+        "all": "Paginazione (efficiente) dei risultati con la clausola LIMIT",
+        "type": "esempio"
+      },
+      {
+        "all": "Sotto-query semplici"
+      },
+      {
+        "all": "Sotto-query scalari usate nelle clausole WHERE e SELECT",
+        "type": "esempio"
+      },
+      {
+        "all": "Come assicurarsi che una sotto-query sia sempre scalare?"
+      },
+      {
+        "all": "Sotto-query correlate e visibilit\u00e0 degli identificatori"
+      },
+      {
+        "all": "Sotto-query lista usate con l'operatore IN",
+        "type": "esempio"
+      },
+      {
+        "all": "Sotto-query usate con un operatori di confronto",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "it": "SQL: query di base",
+      "en": "SQL: base queries"
+    }
+  },
+  {
+    "date": "2026-04-30T08:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Uso dei quantificatori ANY e ALL con query lista"
+      },
+      {
+        "all": "Join tra tabelle"
+      },
+      {
+        "all": "Join impliciti: condizioni di join e clausola WHERE"
+      },
+      {
+        "all": "Condizioni di join semplici e multiple",
+        "type": "esempio"
+      },
+      {
+        "all": "Mescolare condizioni di filtro e di join nella clausola WHERE",
+        "type": "esempio"
+      },
+      {
+        "all": "Join espliciti con l'operatore JOIN"
+      },
+      {
+        "all": "Join interni: l'operatore INNER JOIN e le sue varianti"
+      },
+      {
+        "all": "Spostare le condizioni di WHERE nel JOIN",
+        "type": "esempio"
+      },
+      {
+        "all": "Scrivere JOIN multipli concatenati",
+        "type": "esempio"
+      },
+      {
+        "all": "Problemi con i join effettuati con le condizioni WHERE: includere nei risultati record non relazionati"
+      },
+      {
+        "all": "Join esterni: l'operatore OUTER JOIN e le sue varianti"
+      },
+      {
+        "all": "Scrivere JOIN tra sotto-JOIN (con parentesi di raggruppamento)",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "it": "SQL: I join",
+      "en": "SQL: joins"
+    }
   }
 ]
