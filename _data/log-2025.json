@@ -1560,5 +1560,355 @@
       "it": "SQL avanzato: viste, procedure e funzioni",
       "en": "Advanced SQL: views, procedures and functions"
     }
+  },
+  {
+    "date": "2026-05-13T08:30:00",
+    "duration": 3,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "SQL_Examples - Campionati",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/SQL_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Creare procedure e funzioni complesse per incorporare la logica di accesso e manipolazione del database",
+        "type": "esempio"
+      },
+      {
+        "all": "Costrutti di flusso per le procedure: IF...THEN...ELSE, CASE...WHEN, WHILE, LOOP, REPEAT...UNTIL"
+      },
+      {
+        "show": false,
+        "all": "Le istruzioni LEAVE e ITERATE"
+      },
+      {
+        "all": "Cenni sulle conditions in SQL"
+      },
+      {
+        "all": "Cenni sugli stati SQL (SQLSTATE)"
+      },
+      {
+        "all": "Segnalare una condizione anomala in una procedura: SIGNAL"
+      },
+      {
+        "all": "Creare procedure e funzioni complesse per incorporare la logica di controllo e manipolazione del database, parte 1",
+        "type": "esempio"
+      },
+      {
+        "all": "La funzione last_insert_id()"
+      },
+      {
+        "all": "La funzione found_rows()"
+      },
+      {
+        "all": "Le conditions SQL e gli handler"
+      },
+      {
+        "all": "Dichiarazione di handler: DECLARE HANDLER"
+      },
+      {
+        "all": "Similitudini e differenze tra gli handler SQL e i blocchi try di JAVA"
+      },
+      {
+        "all": "EXIT e CONTINUE handlers"
+      },
+      {
+        "all": "Gestire una condizione anomala e risegnalarla: RESIGNAL"
+      },
+      {
+        "all": "Muoversi tra i record restituiti da una query: i cursori"
+      },
+      {
+        "all": "Gestione del ciclo di vita di un cursore: DACLARE CURSOR, OPEN, FETCH, CLOSE"
+      },
+      {
+        "all": "Gestire la condizione di fine record (NOT FOUND) con un handler"
+      },
+      {
+        "all": "Creare procedure e funzioni complesse per incorporare la logica di controllo e manipolazione del database, parte 2",
+        "type": "esempio"
+      },
+      {
+        "all": "I Trigger"
+      },
+      {
+        "all": "Creazione di un trigger: CREATE TRIGGER"
+      },
+      {
+        "all": "Eventi gestibili da un trigger: INSERT, UPDATE, DELETE"
+      },
+      {
+        "all": "Tempo di esecuzione dei trigger: AFTER e BEFORE"
+      },
+      {
+        "all": "Trigger multipli e ordine di esecuzione (FOLLOWS e PRECEDES)"
+      },
+      {
+        "all": "Usi comuni dei trigger: controllo, completamento, calcolo"
+      },
+      {
+        "all": "I record NEW e OLD nel codice dei trigger (in base all'evento gestito)"
+      },
+      {
+        "all": "Esempi di trigger di controllo e calcolo per il database dei campionati",
+        "type": "esempio"
+      },
+      {
+        "all": "Le Transazioni"
+      },
+      {
+        "all": "Gestire le transazioni: START TRANSACTION, COMMIT, ROLLBACK"
+      },
+      {
+        "all": "Autocommit delle transazioni"
+      },
+      {
+        "all": "Gestione delle transazioni in MySQL",
+        "attachments": [
+          {
+            "link": "https://dev.mysql.com/doc/refman/8.0/en/commit.html"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "it": "SQL avanzato: cursori, trigger, transazioni",
+      "en": "Advanced SQL: cursors, triggers, transactions"
+    }
+  },
+  {
+    "date": "2026-05-15T09:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "SQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/LBD_Lecture_Slides"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "Java_JDBC_Example_MySQL",
+        "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_Example_MySQL"
+      }
+    ],
+    "arguments": [
+      {
+        "all": "Interfacciamento dei DBMS con i linguaggi di programmazione"
+      },
+      {
+        "show": false,
+        "all": "I cursori"
+      },
+      {
+        "all": "JAVA e i DBMS"
+      },
+      {
+        "all": "Il JDBC",
+        "attachments": [
+          {
+            "link": "https://docs.oracle.com/javase/tutorial/jdbc/basics"
+          }
+        ]
+      },
+      {
+        "all": "Specifica e caricamento di un driver DBMS con il JDBC"
+      },
+      {
+        "all": "Le connection string JDBC"
+      },
+      {
+        "all": "Connessione a una base di dati con il JDBC tramite il DriverManager",
+        "type": "esempio"
+      },
+      {
+        "all": "Liberare le risorse JDBC: chiusura corretta degli oggetti",
+        "type": "esempio"
+      },
+      {
+        "all": "Creare uno Statement JDBC",
+        "type": "esempio"
+      },
+      {
+        "all": "Interrogare la base di dati con uno Statement JDBC (executeQuery)",
+        "type": "esempio"
+      },
+      {
+        "all": "Gestione dei risultati di una query tramite i ResultSet JDBC",
+        "type": "esempio"
+      },
+      {
+        "all": "Inserire/Aggiornare record tramite una Statement JDBC (executeUpdate)",
+        "type": "esempio"
+      },
+      {
+        "all": "Query parametriche: i problemi degli statement costruiti con concatenazioni di stringa"
+      },
+      {
+        "all": "Precompilazione di statement: i PreparedStatement"
+      },
+      {
+        "all": "Definire e impostare i parametri di un PreparedStatement",
+        "type": "esempio"
+      },
+      {
+        "all": "Eseguire un PreparedStatement",
+        "type": "esempio"
+      },
+      {
+        "all": "Chiamare una stored procedure da Java: i CallableStatement"
+      },
+      {
+        "all": "Predisporre un CallableStatement con parametri IN",
+        "type": "esempio"
+      },
+      {
+        "all": "Eseguire un CallableStatement",
+        "type": "esempio"
+      },
+      {
+        "all": "Leggere la tabella generata da una stored procedure",
+        "type": "esempio"
+      },
+      {
+        "all": "Registrare dei parametri OUT per un CallableStatement e leggerne il valore dopo l'esecuzione",
+        "type": "esempio"
+      },
+      {
+        "all": "Eseguire una chiamata a funzione tramite un CallableStatement",
+        "type": "esempio"
+      },
+      {
+        "all": "Gestire le transazioni in Java: disabilitare l'autocommit",
+        "type": "esempio"
+      },
+      {
+        "all": "Gestire le transazioni in Java: i metodi commit e rollback della Connection",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "all": "Un uso alternativo della transazioni: accelerare procedure di modifica massiva in un database",
+        "type": "esempio"
+      },
+      {
+        "all": "Riassunto delle modalit\u00e0 d'uso del JDBC (con MySQL)",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_JDBC_Example_MySQL",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_Example_MySQL"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "all": "Specificare le colonne auto-generate da leggere dopo una INSERT",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "all": "Leggere gli ID auto-generati con al getGeneratedKeys",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "all": "PHP e i DBMS"
+      },
+      {
+        "show": false,
+        "all": "Connessione a una base di dati in PHP",
+        "attachments": [
+          {
+            "link": "https://www.php.net/manual/en/book.mysqli.php"
+          },
+          {
+            "link": "https://www.php.net/manual/en/book.pdo.php"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "all": "Interrogare una base di dati in PHP"
+      },
+      {
+        "show": false,
+        "all": "Gestione dei risultati di una query in PHP"
+      },
+      {
+        "all": "Incorporare il DBMS SQLite in un'applicazione Java",
+        "attachments": [
+          {
+            "link": "https://github.com/xerial/sqlite-jdbc"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "all": "Differenze principali tra il dialetto SQL di SQLite e quello di MySQL",
+        "attachments": [
+          {
+            "link": "https://www.sqlite.org"
+          }
+        ]
+      },
+      {
+        "all": "Riassunto delle modalit\u00e0 d'uso del JDBC (con SQLite)",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_JDBC_Example_SQLite",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_Example_SQLite"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "all": "Performance nell'accesso ai dati per applicazioni concorrenti: il problema delle connessioni"
+      },
+      {
+        "show": false,
+        "all": "Riutilizzare le connessioni JDBC: il connection pooling"
+      },
+      {
+        "show": false,
+        "all": "Realizzare il connection pooling con il JDBC e la libreria Apache Commons DBCP2",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://commons.apache.org/proper/commons-dbcp"
+          },
+          {
+            "name": "Java_JDBC_CP_Example_MySQL",
+            "link": "https://github.com/LaboratorioBasiDiDati-Univaq/Java_JDBC_CP_Example_MySQL"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "all": "Uso di un database abstraction layer in PHP per ottenere un'astrazione simile o superiore a quella del JDBC"
+      },
+      {
+        "show": false,
+        "all": "Astrarre la logica del codice degli aspetti legati al DBMS: prime idee"
+      },
+      {
+        "show": false,
+        "all": "Cenni su argomenti avanzati: l'Object-Relational Mapping"
+      },
+      {
+        "all": "Cenni sulla sicurezza: la SQL injection e come difendersi"
+      }
+    ],
+    "title": {
+      "it": "Basi di dati e linguaggi di programmazione",
+      "en": "Databases and programming languages"
+    }
   }
 ]
